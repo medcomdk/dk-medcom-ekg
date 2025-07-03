@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+/fsh-generated
+/input-cache
+/output
+/template
+/temp
+/out
+/.vscode
+/_gencontinuous.bat
+/_gencontinuous.sh
+/_genonce.bat
+/_genonce.sh
+/_build.bat
+/_build.sh
+/_updatePublisher.bat
+/_updatePublisher.sh
