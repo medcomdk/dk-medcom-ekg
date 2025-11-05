@@ -3,10 +3,8 @@
 <!-- below is the table of content. Ensure to update it. -->
 **Table of Content**
 * [1 Standard Documentation](#standard)
-  * [1.1 Clinical Guidelines for application](#11-clinical-guidelines-for-application)
-  * [1.2 Use Cases](#12-use-cases)
-  * [1.3 Technical specification](#13-technical-specification)
-  * [1.4 Mapping from OIOXML to FHIR](#14-mapping-from-oioxml-to-fhir)
+  * [1.1 Use Cases](#11-use-cases)
+  * [1.2 Technical specification](#12-technical-specification)
 * [2 Test and Certification](#2-test-and-certification)
 
 
