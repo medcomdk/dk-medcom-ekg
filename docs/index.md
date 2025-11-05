@@ -7,9 +7,6 @@
   * [1.2 Technical specification](#12-technical-specification)
 * [2 Test and Certification](#2-test-and-certification)
 
-
-*Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
-
 The MedCom Shared ECG Recording standard (MedCom Deling af EKG-optagelser) named ECGRecording enables cross-sectoral sharing of electrocardiograms (ECGs). The standard supports the establishment of a national sharing portal for EKG data in the form of PDF documents encolsed in a FHIR Document. The solution ensures near real-time access to EKG data across the Danish healthcare sector.
  
 > MANGLER: Clinical Guidelines for application and use cases are in both Danish and English. The remaining documentation will be in English.
