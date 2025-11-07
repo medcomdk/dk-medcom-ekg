@@ -4,9 +4,9 @@ Id: medcom-document-media
 Title: "MedComDocumentMedia"
 Description: "Profile to capture relevant attachments for MedCom FHIR Documents"
 * content.contentType 1..
-* content.creation obeys medcom-has-time-and-zone //Skal sikres at tidspunkt også er med - og vi skal have styr på tidszonekrav.
+* content.creation obeys medcom-datetime-has-time-and-zone //Skal sikres at tidspunkt også er med - og vi skal have styr på tidszonekrav.
 
-Invariant: medcom-has-time-and-zone
+Invariant: medcom-datetime-has-time-and-zone
 Description: "dateTime must include date, time, and time zone."
 Severity: #error
 Expression: "$this.toString().matches('^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$')"
