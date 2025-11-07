@@ -28,7 +28,7 @@ dependencies:
   hl7.fhir.dk.core: 3.4.0
   medcom.fhir.dk.core: 3.0.1
   medcom.fhir.dk.messaging: 4.0.1
-  medcom.fhir.dk.terminology: 2.0.1
+  medcom.fhir.dk.terminology: current
   medcom.fhir.dk.messagedefinitions: 1.0.0
   medcom.fhir.dk.xdsmetadata: 1.0.1
 
