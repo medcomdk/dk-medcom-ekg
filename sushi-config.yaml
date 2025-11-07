@@ -31,6 +31,7 @@ dependencies:
   medcom.fhir.dk.terminology: current
   medcom.fhir.dk.messagedefinitions: 1.0.0
   medcom.fhir.dk.xdsmetadata: 1.0.1
+  medcom.fhir.dk.document: 1.0.1
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced

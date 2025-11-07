@@ -12,4 +12,4 @@ Description: "A profile for the MedCom ConditionList Bundle resource."
 * entry contains 
     medcom-conditionlist-composition 1..1 MS
 * entry[medcom-conditionlist-composition] ^short = "First entry is a composition"
-* entry[medcom-conditionlist-composition].resource only MedComConditionListComposition
+//* entry[medcom-conditionlist-composition].resource only MedComConditionListComposition

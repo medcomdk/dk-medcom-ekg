@@ -20,9 +20,9 @@ Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
 InstanceOf: MedComDocumentReference
 Title: "DocumentReference instance"
 Description: "DocumentReference instance"
-* contained[+] = 1fcad31f-8967-4f49-b6af-7e64082e8fec //RCH: These instances are in the ConditionList examples
-* contained[+] = fd3206c6-c265-49f9-82c3-8b4c96280403
-* contained[+] = 69e475df-20c8-4f54-8cea-9843568205fd
+//* contained[+] = 1fcad31f-8967-4f49-b6af-7e64082e8fec //RCH: These instances are in the ConditionList examples
+//* contained[+] = fd3206c6-c265-49f9-82c3-8b4c96280403
+//* contained[+] = 69e475df-20c8-4f54-8cea-9843568205fd
 * masterIdentifier.value = "urn:uuid:bf1bb63b-d405-4dfe-9810-37b16b333a01"
 * status = #current "Current"
 * identifier.value = "urn:uuid:7c596b9a-112e-4386-ae71-5ecdd3ed7c50"

@@ -5,8 +5,8 @@ Title: "MedComDocumentMedia"
 Description: "Profile to capture relevant attachments for MedCom FHIR Documents"
 * content.contentType 1..
 * content.creation obeys medcom-datetime-has-time-and-zone
-* content.title ^short ="Title without file ending" // Core?
-* content.title obeys XXX // Lav en invariant, som laver titlen som Media.identifier.
+* content.title ^short = "Title without file ending" // Core?
+//* content.title obeys XXX // Lav en invariant, som laver titlen som Media.identifier.
 
 Invariant: medcom-datetime-has-time-and-zone
 Description: "dateTime must include date, time, and time zone."
@@ -31,8 +31,8 @@ Description: "Profile to capture relevant images,audio, video and document as pa
 * content.contentType from $Mimetypes // Skal vi bruge et bredere sæt? http://medcomfhir.dk/ig/terminology/ValueSet/medcom-core-attachmentMimeTypes SKAL FINDE ET STØRRE VALUESET
 * content.title 1..1 MS
 * content.creation 1..1 MS
-* operator obeys medcom-homecareReport-5 //Skal omdøbes, hvis vi skal bruge dem?
-* operator obeys medcom-homecareReport-6 //Skal omdøbes, hvis vi skal bruge dem?
+//* operator obeys medcom-homecareReport-5 //Skal omdøbes, hvis vi skal bruge dem?
+//* operator obeys medcom-homecareReport-6 //Skal omdøbes, hvis vi skal bruge dem?
 
 
 /* Invariant: medcom-homecareReport-5
