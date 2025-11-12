@@ -16,7 +16,7 @@ Description: "A profile for the MedCom ConditionListDocumentReference resource."
 * subject 1..
 
 // Metadata instance
-Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
+/* Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
 InstanceOf: MedComDocumentReference
 Title: "DocumentReference instance"
 Description: "DocumentReference instance"
@@ -44,4 +44,4 @@ Description: "DocumentReference instance"
 * extension[0].url = "http://medcomfhir.dk/ig/document/StructureDefinition/medcom-document-homecommunityid-extension"
 * extension[0].valueCoding = $DanishxdsOID#1.2.208.176.8.1 "Common Danish IHE XDS domain. Integrating the Healthcare Enterprise (IHE) cross[X]-enterprise Document Sharing (XDS) domain"
 * extension[1].url = "http://medcomfhir.dk/ig/document/StructureDefinition/medcom-document-version-id-extension"
-* extension[1].valueString = "1.0.0"
+* extension[1].valueString = "1.0.0" */
