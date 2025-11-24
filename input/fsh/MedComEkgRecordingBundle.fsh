@@ -10,6 +10,6 @@ Description: "A profile for the MedCom ConditionList Bundle resource."
 * entry ^slicing.rules = #open
 * entry ^slicing.description = "Slicing based on the resource type"
 * entry contains 
-    medcom-conditionlist-composition 1..1 MS
-* entry[medcom-conditionlist-composition] ^short = "First entry is a composition"
-//* entry[medcom-conditionlist-composition].resource only MedComConditionListComposition
+    medcom-ekg-recording-composition 1..1 MS
+* entry[medcom-ekg-recording-composition] ^short = "First entry is a composition"
+// * entry[medcom-ekg-recording-composition].resource only MedComEkgRecordingComposition //RCH: Hvorfor er denne udkommenteret?

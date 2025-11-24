@@ -1,4 +1,4 @@
-
+<!-- 
 # Flow of CareCommunication 
 
 This section describes five subsequent CareCommunications sent between three healthcare departments concerning the same citizen with test-CPR-nr. 250947-9989. <br>
@@ -81,3 +81,4 @@ It is allowed to send a CareCommunication for a patient with a replacement-CPR (
 
 It is allowed to answer a received MedCom EDIFACT or OIOXML message with a MedCom CareCommunication. The Provenance.entity.what.identifier shall contain a reference to the received OIOXML. The reference shall contain the locationnumber and letter identifier, divided by #. If the message being replied contains an episodOfCareIdentifier, this shall be included in the CareCommunication message.
 
+ -->
