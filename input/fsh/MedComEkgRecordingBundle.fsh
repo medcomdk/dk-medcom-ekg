@@ -1,6 +1,6 @@
-Profile: MedComConditionListBundle
+Profile: MedComEkgRecordingBundle
 Parent: MedComDocumentBundle
-Id: medcom-conditionlist-bundle
+Id: medcom-ekg-recording-bundle
 Description: "A profile for the MedCom ConditionList Bundle resource."
 * entry 1..* MS
 * entry.resource 1..1 MS // each entry must have a resource

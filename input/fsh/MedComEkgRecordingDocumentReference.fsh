@@ -1,6 +1,6 @@
-Profile: MedComConditionListDocumentReference
-Parent: MedComDocumentReference
-Id: medcom-conditionlist-documentreference
+Profile: MedComEkgRecordingDocumentReference
+Parent: MedComContainedDocumentReference
+Id: medcom-ekg-recording-documentreference
 Description: "A profile for the MedCom ConditionListDocumentReference resource."
 * type from $PlrTypeCode (required) 
 //* category.coding.system from $ClassCode (required)

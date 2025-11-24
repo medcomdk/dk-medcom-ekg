@@ -1,4 +1,4 @@
-Profile: MedComDocumentDiagnosticReport
+/* Profile: MedComDocumentDiagnosticReport
 Parent: MedComCoreDiagnosticReport
 Id: medcom-document-diagnosticreport
 Title: "MedComDocumentDiagnosticReport"
@@ -10,5 +10,5 @@ Description: "Report containing observation results."
 * presentedForm.data ^short = "Base64 encoded data of attached file."
 * presentedForm.contentType 1..1 MS
 * presentedForm.title MS
-* presentedForm.title ^short = "Title of the attached file."
+* presentedForm.title ^short = "Title of the attached file." */
 

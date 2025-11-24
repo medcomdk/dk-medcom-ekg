@@ -10,12 +10,6 @@ Description: "Profile to capture relevant attachments for MedCom FHIR Documents"
 * content.title ^short = "Title without file ending" // Core? */
 //* content.title obeys XXX // Lav en invariant, som laver titlen som Media.identifier.
 
-Invariant: medcom-datetime-has-time-and-zone
-Description: "dateTime must include date, time, and time zone."
-Severity: #error
-Expression: "$this.toString().matches('^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$')"
-
-
 
 /* //Core content:
 Profile: MedComCoreMedia

@@ -1,4 +1,4 @@
-Profile: MedComEKGDiagnosticReport
+/* Profile: MedComEKGRecordingDiagnosticReport
 Parent: MedComDocumentDiagnosticReport
 Id: medcom-ekg-diagnosticreport
 Title: "MedComEKGDiagnosticReport"
@@ -13,4 +13,4 @@ Description: "Report containing observation results."
 * presentedForm.contentType 1..1
 * presentedForm.contentType = #application/pdf
 * presentedForm.title 1..1
-* presentedForm.title ^short = "Title of the attached file"
+* presentedForm.title ^short = "Title of the attached file" */
