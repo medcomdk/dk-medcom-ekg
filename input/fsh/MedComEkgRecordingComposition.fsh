@@ -9,8 +9,8 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * title = "Elektrokardiogram, 12-aflednings"
 * title ^short = "Title MUST be 'Elektrokardiogram, 12-aflednings'" //RCH: Er dette helt fastlagt?
 * author[institution] only Reference(MedComEkgRecordingOrganization)
-//* section.entry only Reference(MedComConditionListCondition)
-* section.entry 1..
+* section.entry 1.. MS
+* section.entry only Reference(MedComEkgRecordingContentDocumentReference)
 * confidentiality = #N
 * status = http://hl7.org/fhir/composition-status#final
 * language = #da

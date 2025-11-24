@@ -1,19 +1,20 @@
 Profile: MedComEkgRecordingDocumentReference
 Parent: MedComContainedDocumentReference
 Id: medcom-ekg-recording-documentreference
-Description: "A profile for the MedCom ConditionListDocumentReference resource."
-* type from $PlrTypeCode (required) 
-//* category.coding.system from $ClassCode (required)
-//* content.attachment.contentType from $ContentType (required)
+Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentReference resource."
+* type from $PlrTypeCode (required) //RCH Hvorfor har den sit eget valuesæt i stedet for at være bundet til en bestemt værdi direkte?
+* category from $ClassCodeVS (required)
+* category.coding.system = $ClassCodeCS
+* category.coding.code = #001
+//* content.attachment.contentType from $ContentTypeCS (required)
 //* content.attachment.language from $Language (required)
-* content.format from $PlrFormatCode (required)
+* content.format from $PlrFormatCode (required) //RCH: Samme kommentar som til type
 //* content.attachment.contentType from $PlrContentType
 //* context.event from $PcaEventCode (required)
 //* context.facilityType from $ApdFacilityType (required)
 //* context.practiceSetting from $ApdPracticeSetting (required)
-* extension.valueCoding from $PlrHomeCommunityID (required)
+* extension.valueCoding from $PlrHomeCommunityID (required) //RCH: Samme kommentar som til type
 * extension.valueString = "1.0.0"
-* subject 1..
 
 // Metadata instance
 /* Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12

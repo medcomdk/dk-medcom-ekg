@@ -28,3 +28,5 @@ Alias: $clinical-status = http://terminology.hl7.org/CodeSystem/condition-clinic
 Alias: $category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $sct = http://snomed.info/sct
 Alias: $Mimetypes = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-core-attachmentMimeTypes
+
+Alias: $ClassCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-classcode-VS
