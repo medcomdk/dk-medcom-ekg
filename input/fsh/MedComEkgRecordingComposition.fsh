@@ -14,3 +14,11 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * confidentiality = #N
 * status = http://hl7.org/fhir/composition-status#final
 * language = #da
+* event 1..1 MS
+* event.period 1.. MS
+* event.period.start 1.. MS
+* event.period.start obeys medcom-datetime-has-time-and-zone
+* event.period.start ^short = "The start time of the EKG recording"
+* event.period.end 1.. MS
+* event.period.end obeys medcom-datetime-has-time-and-zone
+* event.period.start ^short = "The end time of the EKG recording"
