@@ -27,12 +27,22 @@ dependencies:
   ihe.iti.mhd: 4.2.2
   hl7.fhir.dk.core: 3.4.0
   medcom.fhir.dk.core: 3.0.1
-  medcom.fhir.dk.messaging: 4.0.1
+#  medcom.fhir.dk.messaging: 4.0.1
   medcom.fhir.dk.terminology: 2.0.1
   medcom.fhir.dk.messagedefinitions: 1.0.0
   medcom.fhir.dk.xdsmetadata: 1.0.1
   medcom.fhir.dk.document: 1.0.1
   hl7.fhir.uv.extensions.r4: 5.2.0
+
+menu:
+  Home: index.html
+  Profiles: profiles.html
+  Examples: examples.html
+  Artifacts: artifacts.html
+  More:
+    Table of Contents: toc.html
+    Downloads: downloads.html
+    Dependencies: dependencies.html
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -88,9 +98,6 @@ dependencies:
 # │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Home: index.html
-  Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
