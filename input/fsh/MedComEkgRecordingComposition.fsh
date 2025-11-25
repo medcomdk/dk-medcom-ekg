@@ -5,10 +5,10 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * type.coding.system = $loinc
 * type.coding.code = #11524-6
 * type.coding.display = "EKG Study"
-* date ^short = "Creation date and time for the EKG Recording" //RCH: Eller er det selve dokumentets byggetidspunkt?
 * title = "Elektrokardiogram, 12-aflednings"
 * title ^short = "Title MUST be 'Elektrokardiogram, 12-aflednings'" //RCH: Er dette helt fastlagt?
 * author[institution] only Reference(MedComEkgRecordingOrganization)
+* author[person] only Reference(MedComDocumentPractitioner or MedComDocumentPractitionerRole or Device)
 * section.entry 1.. MS
 * section.entry only Reference(MedComEkgRecordingContentDocumentReference)
 * confidentiality = #N
