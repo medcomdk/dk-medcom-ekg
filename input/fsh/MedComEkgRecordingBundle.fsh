@@ -11,4 +11,4 @@ Description: "A profile for the MedCom ConditionList Bundle resource."
 * entry contains 
     medcom-ekg-recording-composition 1..1 MS
 * entry[medcom-ekg-recording-composition] ^short = "First entry is a composition"
-// * entry[medcom-ekg-recording-composition].resource only MedComEkgRecordingComposition //RCH: Hvorfor er denne udkommenteret?
+* entry[medcom-ekg-recording-composition].resource only MedComEkgRecordingComposition
