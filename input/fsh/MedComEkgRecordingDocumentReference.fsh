@@ -20,6 +20,7 @@ Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentRefere
 //* context.practiceSetting from $ApdPracticeSetting (required)
 * extension.valueCoding from $PlrHomeCommunityID (required) //RCH: Samme kommentar som til type
 * extension.valueString = "1.0.0"
+* content.attachment.url ^short = "[DocumentEntry.URI] Uri where the data can be found. If not known, the title of the attachment including file extension can be inserted."
 
 // Metadata instance
 /* Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
