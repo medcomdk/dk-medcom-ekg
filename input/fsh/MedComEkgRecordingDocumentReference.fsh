@@ -3,7 +3,7 @@ Parent: MedComContainedDocumentReference
 Id: medcom-ekg-recording-documentreference
 Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentReference resource."
 * type from $PlrTypeCode (required) //RCH Hvorfor har den sit eget valuesæt i stedet for at være bundet til en bestemt værdi direkte?
-* category from $ClassCodeVS (required)
+* category from $ClassCodeVS (required) //Er det korrekt at man binder til valuesettet her, og så sætter systemet sådan som i linjen under?
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 //* content.attachment.contentType from $ContentTypeCS (required)
