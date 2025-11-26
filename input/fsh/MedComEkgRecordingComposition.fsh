@@ -2,18 +2,18 @@ Profile: MedComEkgRecordingComposition
 Parent: MedComDocumentComposition
 Id: medcom-ekg-recording-composition
 Description: "A profile for the MedCom Ekg Recording Composition resource."
-* type.coding.system = $loinc
-* type.coding.code = #11524-6
-* type.coding.display = "EKG Study"
-* title = "Elektrokardiogram, 12-aflednings"
+* type.coding.system = $loinc (exactly)
+* type.coding.code = #11524-6 (exactly)
+* type.coding.display = "EKG Study" (exactly)
+* title = "Elektrokardiogram, 12-aflednings" (exactly)
 * title ^short = "Title MUST be 'Elektrokardiogram, 12-aflednings'" //RCH: Er dette helt fastlagt?
 * author[institution] only Reference(MedComEkgRecordingOrganization)
 * author[person] only Reference(MedComDocumentPractitioner or MedComDocumentPractitionerRole or Device)
 * section.entry 1.. MS
-* section.entry only Reference(MedComEkgRecordingContentDocumentReference)
-* confidentiality = #N
+* section.entry only Reference(MedComEkgRecordingContentDocumentReference or MedComEKGRecordingDiagnosticReport)
+* confidentiality = #N (exactly)
 * status = http://hl7.org/fhir/composition-status#final
-* language = #da
+* language = #da (exactly)
 * event 1..1 MS
 * event.period 1.. MS
 * event.period.start 1.. MS

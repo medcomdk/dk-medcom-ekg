@@ -1,5 +1,5 @@
 Profile: MedComEKGRecordingDiagnosticReport
-Parent: MedComDocumentDiagnosticReport
+Parent: MedComCoreDiagnosticReport
 Id: medcom-ekg-diagnosticreport
 Title: "MedComEKGDiagnosticReport"
 Description: "Report containing observation results."
