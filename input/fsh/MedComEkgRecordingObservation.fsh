@@ -3,6 +3,11 @@ Parent: MedComCoreObservation
 Id: medcom-ekg-recording-observation
 Title: "MedComEkgRecordingObservation"
 Description: "Observation profile intended to be used in MedCom's Ekg Recording standard."
+//Hvilke krav stiller vi til identifier generelt? (Nedenstående er også i core, detr er bare kopieret hertil for diksussionens skyld). Tidligere var kravet UUIDv4.
+* identifier 1..1 MS 
+* identifier.value 1..1 MS 
+* identifier ^short = "The Observation identifier" 
+
 * status = #final //OBS: Experimental valueset - skal rettes i Terminology IG.
 * status ^short = "Status MUST be final." 
 * effective[x] only dateTime or Period
