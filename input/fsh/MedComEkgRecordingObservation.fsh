@@ -37,9 +37,9 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 
 // --- R5 valueAttachment via official cross-version extension ---
 * extension contains
-    $obsExtValueAttachment named valueAttachmentR5 1..1 MS
-* extension[valueAttachmentR5].value[x] only Attachment
-* extension[valueAttachmentR5].url MS
+    $obsExtValueAttachment named valueAttachmentR5 1..1 MS // 0.. og indsæt i core observation?
+* extension[valueAttachmentR5].value[x] only Attachment // Skal denne med i core? Eller skal vi være åbne for andre R5 datatyper?
+* extension[valueAttachmentR5].url MS //Også i core
 * extension[valueAttachmentR5].valueAttachment 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.data 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF file."
