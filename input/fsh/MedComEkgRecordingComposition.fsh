@@ -10,7 +10,7 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * author[institution] only Reference(MedComEkgRecordingOrganization)
 * author[person] only Reference(MedComDocumentPractitioner or MedComDocumentPractitionerRole or Device)
 * section.entry 1.. MS
-* section.entry only Reference(MedComEkgRecordingContentDocumentReference or MedComEKGRecordingDiagnosticReport)
+* section.entry only Reference(MedComEkgRecordingObservation)
 * confidentiality = #N (exactly)
 * status = http://hl7.org/fhir/composition-status#final
 * language = #da (exactly)

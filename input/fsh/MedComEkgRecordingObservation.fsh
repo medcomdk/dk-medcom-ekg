@@ -17,3 +17,4 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * note.text MS
 * note.text ^maxLength = 50
 * note ^short = "A note related to the EKG recording."
+* performer only Reference(Organization or Practitioner)
