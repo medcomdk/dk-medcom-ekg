@@ -7,7 +7,7 @@ Description: "A DocumentReference profile to contain actual content of a MedCom 
 * content.attachment.data 1.. MS
 * content.attachment.data ^short = "The attachment content PDF encoded as Base64."
 * content.attachment.contentType 1.. MS
-* content.attachment.contentType = #application/pdf
+* content.attachment.contentType = #application/pdf (exactly)
 * content.attachment.contentType ^short = "The MIME type of the PDF document."
 * content.attachment.title 1.. MS //RCH: Er den nødvendig?
 * content.attachment.title ^short = "A filename for the document."

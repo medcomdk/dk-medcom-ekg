@@ -4,13 +4,13 @@ Id: medcom-ekg-recording-documentreference
 Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentReference resource."
 //* type from $PlrTypeCode (required) //RCH Hvorfor har den sit eget valuesæt i stedet for at være bundet til en bestemt værdi direkte?
 * type.coding
-* type.coding.system = $loinc //RCH: OBS: Disse linjer er også kopieret til Composition.
-* type.coding.code = #11524-6
-* type.coding.display = "EKG Study" //RCH: Skal denne være med? Det er jo bare en display value
+* type.coding.system = $loinc (exactly) //RCH: OBS: Disse linjer er også kopieret til Composition.
+* type.coding.code = #11524-6 (exactly)
+* type.coding.display = "EKG Study" (exactly) //RCH: Skal denne være med? Det er jo bare en display value
 //* type = $loinc#24412-3 "ECG, electrocardiagram" //RC: Hvad er kravene til type? Jeg har valgt kode fra den binding der er lavet.
 * category from $ClassCodeVS (required) //Er det korrekt at man binder til valuesettet her, og så sætter systemet sådan som i linjen under?
 * category.coding.system = $ClassCodeCS
-* category.coding.code = #001
+* category.coding.code = #001 (exactly)
 //* content.attachment.contentType from $ContentTypeCS (required)
 //* content.attachment.language from $Language (required)
 * content.format from $PlrFormatCode (required) //RCH: Samme kommentar som til type

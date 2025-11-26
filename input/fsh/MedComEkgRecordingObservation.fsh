@@ -15,16 +15,18 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * effectivePeriod.start ^short = "The start time of the EKG recording"
 * effectivePeriod.end 0..1 MS
 * effectivePeriod.end ^short = "The end time of the EKG recording"
-* code MS //RCH: Fjern MS fra de ekelte systemer i Core?
-* code.coding.code MS //RCH: Fjern MS fra de ekelte systemer i Core?
-* code.coding.system MS //RCH: Fjern MS fra de ekelte systemer i Core?
+* code.coding[LOINC] 1..1 MS
+* code.coding[LOINC].code MS
+* code.coding[LOINC].code = #11524-6 (exactly)
+* code.coding[LOINC].display = "EKG Study" (exactly) //RCH: Stiller vi krav om at medsende display eller ej? Det gør læsbarheden bedre, men best practice er ikke at sende den med.
+* code.coding[LOINC].system MS
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
 * note 1..1 MS
 * note.text MS
 * note.text ^maxLength = 50
 * note ^short = "A note related to the EKG recording."
-* performer only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole) //Hvem skal kunne indsættes her? (Og skal den være med?)
+* performer only Reference(MedComDocumentOrganization)
 
 //Vi skal bruge noget a la dette til extension:
 
