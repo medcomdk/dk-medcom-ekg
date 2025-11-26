@@ -1,9 +1,11 @@
+Alias: $obsExtValueAttachment = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]
+
 Profile: MedComEkgRecordingObservation
 Parent: MedComCoreObservation
 Id: medcom-ekg-recording-observation
 Title: "MedComEkgRecordingObservation"
 Description: "Observation profile intended to be used in MedCom's Ekg Recording standard."
-//Hvilke krav stiller vi til identifier generelt? (Nedenstående er også i core, detr er bare kopieret hertil for diksussionens skyld). Tidligere var kravet UUIDv4.
+//Hvilke krav stiller vi til identifier generelt? (Nedenstående er også i core, det er bare kopieret hertil for diksussionens skyld). Tidligere var kravet UUIDv4.
 * identifier 1..1 MS 
 * identifier.value 1..1 MS 
 * identifier ^short = "The Observation identifier" 
@@ -33,12 +35,17 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * note ^short = "A note related to the EKG recording."
 * performer only Reference(MedComDocumentOrganization)
 
-//Vi skal bruge noget a la dette til extension:
+// --- R5 valueAttachment via official cross-version extension ---
+* extension contains
+    $obsExtValueAttachment named valueAttachmentR5 1..1 MS
+* extension[valueAttachmentR5].value[x] only Attachment
+* extension[valueAttachmentR5].url MS
+* extension[valueAttachmentR5].valueAttachment 1..1 MS
+* extension[valueAttachmentR5].valueAttachment.data 1..1 MS
+* extension[valueAttachmentR5].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF file."
+* extension[valueAttachmentR5].valueAttachment.contentType 1..1 MS
+* extension[valueAttachmentR5].valueAttachment.contentType = #application/pdf (exactly)
+* extension[valueAttachmentR5].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
+* extension[valueAttachmentR5].valueAttachment.title 1..1 MS
+* extension[valueAttachmentR5].valueAttachment.title ^short = "Human-readable label for the attached EKG recording file." //RCH: FORMEN SKAL AFTALES
 
-/*
-* .data 1..1 MS
-* .data ^short = "Base64 encoded data of the EKG PDF document."
-* .contentType 1..1 MS
-* .contentType = #application/pdf
-* .title 1..1 MS
-* .title ^short = "Title of the attached file" */
