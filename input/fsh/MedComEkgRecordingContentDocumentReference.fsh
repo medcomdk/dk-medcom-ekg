@@ -13,7 +13,7 @@ Description: "A DocumentReference profile to contain actual content of a MedCom 
 * content.attachment.title ^short = "A filename for the document."
 //* content.attachment.creation 1.. MS //RCH: Ingen dato sat her, det er sat i Composition i stedet for.
 //* content.attachment.creation ^short = "The date and time when the PDF document was created."
-//* content.attachment.creation obeys medcom-datetime-has-time-and-zone
+//* content.attachment.creation obeys medcom-datetime-has-time-offset-zulu
 * description 1.. MS
 * description ^maxLength = 50
 * description ^definition = "Free-text note, used to document relevant measurement-related remarks."

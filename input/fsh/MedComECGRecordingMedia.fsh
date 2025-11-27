@@ -6,7 +6,7 @@ Id: medcom-document-media
 Title: "MedComDocumentMedia"
 Description: "Profile to capture relevant attachments for MedCom FHIR Documents"
 * content.contentType 1..
-* content.creation obeys medcom-datetime-has-time-and-zone
+* content.creation obeys medcom-datetime-has-time-offset-zulu
 * content.title ^short = "Title without file ending" // Core? */
 //* content.title obeys XXX // Lav en invariant, som laver titlen som Media.identifier.
 

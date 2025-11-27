@@ -47,5 +47,5 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * extension[valueAttachmentR5].valueAttachment.contentType = #application/pdf (exactly)
 * extension[valueAttachmentR5].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
 * extension[valueAttachmentR5].valueAttachment.title 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.title ^short = "Human-readable label for the attached EKG recording file." //RCH: FORMEN SKAL AFTALES
+* extension[valueAttachmentR5].valueAttachment.title ^short = "Human-readable label for the attached EKG recording file." //RCH: FORMEN SKAL AFTALES. "Observations identifier".PDF
 
