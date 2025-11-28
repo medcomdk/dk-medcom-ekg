@@ -32,20 +32,21 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * note 1..1 MS
 * note.text MS
 * note.text ^maxLength = 50
-* note ^short = "A note related to the EKG recording."
+* note ^short = "Free-text note, used to document relevant measurement-related remarks."
 * performer only Reference(MedComDocumentOrganization)
 
 // --- R5 valueAttachment via official cross-version extension ---
+// https://chatgpt.com/c/6928c7cf-83d8-8326-9235-b36115ce3edd
 * extension contains
     $obsExtValueAttachment named valueAttachmentR5 1..1 MS // 0.. og indsæt i core observation?
-* extension[valueAttachmentR5].value[x] only Attachment // Skal denne med i core? Eller skal vi være åbne for andre R5 datatyper?
+* extension[valueAttachmentR5].value[x] only Attachment // Flyt til core
 * extension[valueAttachmentR5].url MS //Også i core
 * extension[valueAttachmentR5].valueAttachment 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.data 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF file."
+* extension[valueAttachmentR5].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF document."
 * extension[valueAttachmentR5].valueAttachment.contentType 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.contentType = #application/pdf (exactly)
 * extension[valueAttachmentR5].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
 * extension[valueAttachmentR5].valueAttachment.title 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.title ^short = "Human-readable label for the attached EKG recording file." //RCH: FORMEN SKAL AFTALES. "Observations identifier".PDF
+* extension[valueAttachmentR5].valueAttachment.title ^short = "Human-readable title for the attached EKG recording file." //RCH: FORMEN SKAL AFTALES. "Observations identifier".PDF
 
