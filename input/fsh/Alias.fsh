@@ -30,3 +30,5 @@ Alias: $sct = http://snomed.info/sct
 Alias: $Mimetypes = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-core-attachmentMimeTypes
 
 Alias: $ClassCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-classcode-VS
+
+Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
