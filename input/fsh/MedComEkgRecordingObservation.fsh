@@ -1,19 +1,12 @@
-Alias: $obsExtValueAttachment = http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]
-
 Profile: MedComEkgRecordingObservation
 Parent: MedComCoreObservation
 Id: medcom-ekg-recording-observation
 Title: "MedComEkgRecordingObservation"
 Description: "Observation profile intended to be used in MedCom's Ekg Recording standard."
-//Hvilke krav stiller vi til identifier generelt? (Nedenstående er også i core, det er bare kopieret hertil for diksussionens skyld). Tidligere var kravet UUIDv4.
-* identifier 1..1 MS 
-* identifier.value 1..1 MS 
-* identifier ^short = "The Observation identifier" 
-
 * status = #final //OBS: Experimental valueset - skal rettes i Terminology IG.
 * status ^short = "Status MUST be final." 
 * effective[x] only dateTime or Period
-* effective[x] 1..1
+* effective[x] 1..1 MS
 * effective[x] ^short = "The time or time period of the EKG recording."
 * effectiveDateTime MS //RCH: Profilering af denne til PLSP. Skal tydeliggøres hvilken man skal bruge hvornår.
 * effectiveDateTime ^short = "The time of the EKG recording"
@@ -34,13 +27,9 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * note.text ^maxLength = 50
 * note ^short = "Free-text note, used to document relevant measurement-related remarks."
 * performer only Reference(MedComDocumentOrganization)
-
 // --- R5 valueAttachment via official cross-version extension ---
-// https://chatgpt.com/c/6928c7cf-83d8-8326-9235-b36115ce3edd
-* extension contains
-    $obsExtValueAttachment named valueAttachmentR5 1..1 MS // 0.. og indsæt i core observation?
-* extension[valueAttachmentR5].value[x] only Attachment // Flyt til core
-* extension[valueAttachmentR5].url MS //Også i core
+* extension[valueAttachmentR5].url MS
+* extension[valueAttachmentR5] 1..1 MS
 * extension[valueAttachmentR5].valueAttachment 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.data 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF document."
