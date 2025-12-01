@@ -40,7 +40,7 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * extension[valueAttachmentR5].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
 * extension[valueAttachmentR5].valueAttachment.title 1..1 MS
 * extension[valueAttachmentR5].valueAttachment.title ^short = "MUST equal identifier.value appended with '.pdf'. Example: 6ca24102-66dc-47e4-a266-6e5c01131f0e.pdf"
-* extension[valueAttachmentR5].valueAttachment.title obeys title-matches-identifier
+//* extension[valueAttachmentR5].valueAttachment.title obeys title-matches-identifier
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)
 * insert ProducerShallPutInNarrative(effectivePeriod.start)

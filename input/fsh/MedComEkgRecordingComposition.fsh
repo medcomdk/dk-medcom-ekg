@@ -3,12 +3,12 @@ Parent: MedComDocumentComposition
 Id: medcom-ekg-recording-composition
 Description: "A profile for the MedCom Ekg Recording Composition resource."
 * type.coding.system = $loinc (exactly)
-* type.coding.code = #11524-6 (exactly)
-* type.coding.display = "EKG study" (exactly)
+//* type.coding.code = #11524-6 (exactly) //afventer XDS metadata IG opdatering
+//* type.coding.display = "EKG study" (exactly) //afventer XDS metadata IG opdatering
 * title = "Elektrokardiogram-12-aflednings" (exactly)
 * title ^short = "Title MUST be 'Elektrokardiogram-12-aflednings'"
+* author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
 * author[institution] only Reference(MedComDocumentOrganization)
-* author[person] only Reference(MedComDocumentPractitioner or MedComDocumentPractitionerRole)
 * section.entry 1.. MS
 * section.entry only Reference(MedComEkgRecordingObservation)
 * confidentiality = #N (exactly)
