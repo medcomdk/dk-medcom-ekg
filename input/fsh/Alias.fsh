@@ -28,12 +28,8 @@ Alias: $clinical-status = http://terminology.hl7.org/CodeSystem/condition-clinic
 Alias: $category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $sct = http://snomed.info/sct
 Alias: $Mimetypes = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-core-attachmentMimeTypes
-
 Alias: $ClassCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-classcode-VS
-
 Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-classcode-CS
-
 Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
-
 Alias: $PractitionerRole = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-core-PractitionerRolesSKSadministrativ
 Alias: $ObsStatusCodeSystem = http://hl7.org/fhir/observation-status

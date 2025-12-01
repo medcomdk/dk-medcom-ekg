@@ -4,7 +4,7 @@ Id: medcom-ekg-recording-composition
 Description: "A profile for the MedCom Ekg Recording Composition resource."
 * type.coding.system = $loinc (exactly)
 * type.coding.code = #11524-6 (exactly)
-* type.coding.display = "EKG Study" (exactly)
+* type.coding.display = "EKG study" (exactly)
 * title = "Elektrokardiogram-12-aflednings" (exactly)
 * title ^short = "Title MUST be 'Elektrokardiogram-12-aflednings'"
 * author[institution] only Reference(MedComDocumentOrganization)

@@ -1,13 +1,13 @@
 Instance: 384ca229-c562-4a26-a035-c0c38108e036
 InstanceOf: MedComEkgRecordingComposition
 Usage: #example
-* meta.profile = "1.0" //Indsæt formatcode?
+//* meta.profile = "1.0" //Indsæt formatcode?
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:0e386cca-f4b0-4484-89e3-3c25d55ebf5a"
 * status = #final
 * type.coding.system = "http://loinc.org"
 * type.coding.code = #11524-6
-* type.coding.display = "EKG Study"
+* type.coding.display = "EKG study"
 * category.coding.system = "$ClassCodeCS"
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
@@ -21,8 +21,6 @@ Usage: #example
 * section[0].entry[0] = Reference(ef810168-ee8c-4f14-9012-6aff6c1d86e7)
 * date = "2025-02-10T10:15:00+01:00"
 //OBS: attester, event.code, event.detail bruges ikke i EKG - skriv det i profilteksten.
-
-
 
 
 Instance: ef810168-ee8c-4f14-9012-6aff6c1d86e7
