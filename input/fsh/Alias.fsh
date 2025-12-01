@@ -33,3 +33,4 @@ Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-
 Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
 Alias: $PractitionerRole = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-core-PractitionerRolesSKSadministrativ
 Alias: $ObsStatusCodeSystem = http://hl7.org/fhir/observation-status
+Alias: $MedComObsExtValueAttachment = http://medcomfhir.dk/ig/core/StructureDefinition/medcom-observation-value-attachment-extension

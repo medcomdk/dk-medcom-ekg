@@ -29,8 +29,8 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:0e386cca-f4b0-4484-89e3-3c25d55ebf5a"
 * status = #final
-* type.coding.system = "http://loinc.org"
-* type.coding.code = #11524-6 
+* type.coding.system = $LoincOID
+* type.coding.code = #11524-6
 * type.coding.display = "EKG study"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
@@ -67,10 +67,10 @@ Usage: #example
 * effectivePeriod.end = "2025-02-10T10:15:00+01:00"
 * performer = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
 * note.text = "Pt. urolig under optagelse"
-* extension[valueAttachmentR5].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]"
-* extension[valueAttachmentR5].valueAttachment.contentType = #application/pdf
-* extension[valueAttachmentR5].valueAttachment.title = "3e4907e4-a5f9-4403-b0a0-9b3201a97074.pdf"
-* extension[valueAttachmentR5].valueAttachment.data = "JVBERi0xLjUKJcTl8uXrp/Og0MTGCjEgMCBvYmogICUgZW50cnkKPDwKL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2Jq"
+* extension[valueAttachment].url = $MedComObsExtValueAttachment
+* extension[valueAttachment].valueAttachment.contentType = #application/pdf
+* extension[valueAttachment].valueAttachment.title = "3e4907e4-a5f9-4403-b0a0-9b3201a97074.pdf"
+* extension[valueAttachment].valueAttachment.data = "JVBERi0xLjUKJcTl8uXrp/Og0MTGCjEgMCBvYmogICUgZW50cnkKPDwKL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2Jq"
 
 Instance: 379ebb53-11e3-42ac-b9db-0bad0ece46d1
 InstanceOf: MedComDocumentPatient

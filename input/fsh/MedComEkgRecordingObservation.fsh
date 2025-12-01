@@ -29,18 +29,17 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * note ^short = "Free-text note, used to document relevant measurement-related remarks."
 * performer ..1
 * performer only Reference(MedComDocumentOrganization)
-// --- R5 valueAttachment via official cross-version extension ---
-* extension[valueAttachmentR5].url MS
-* extension[valueAttachmentR5] 1..1 MS
-* extension[valueAttachmentR5].valueAttachment 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.data 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF/A document."
-* extension[valueAttachmentR5].valueAttachment.contentType 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.contentType = #application/pdf (exactly)
-* extension[valueAttachmentR5].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
-* extension[valueAttachmentR5].valueAttachment.title 1..1 MS
-* extension[valueAttachmentR5].valueAttachment.title ^short = "MUST equal identifier.value appended with '.pdf'. Example: 6ca24102-66dc-47e4-a266-6e5c01131f0e.pdf"
-//* extension[valueAttachmentR5].valueAttachment.title obeys title-matches-identifier
+* extension[valueAttachment].url MS
+* extension[valueAttachment] 1..1 MS
+* extension[valueAttachment].valueAttachment 1..1 MS
+* extension[valueAttachment].valueAttachment.data 1..1 MS
+* extension[valueAttachment].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF/A document."
+* extension[valueAttachment].valueAttachment.contentType 1..1 MS
+* extension[valueAttachment].valueAttachment.contentType = #application/pdf (exactly)
+* extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
+* extension[valueAttachment].valueAttachment.title 1..1 MS
+//* extension[valueAttachment].valueAttachment.title ^short = "MUST equal identifier.value appended with '.pdf'. Example: 6ca24102-66dc-47e4-a266-6e5c01131f0e.pdf"
+//* extension[valueAttachment].valueAttachment.title obeys title-matches-identifier
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)
 * insert ProducerShallPutInNarrative(effectivePeriod.start)
@@ -49,5 +48,5 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * insert ProducerShallPutInNarrative(code.coding[LOINC].display)
 * insert ProducerShallPutInNarrative(code.coding[LOINC].system)
 * insert ProducerShallPutInNarrative(note.text)
-* insert ProducerShallPutInNarrative(extension[valueAttachmentR5].valueAttachment.contentType)
-* insert ProducerShallPutInNarrative(extension[valueAttachmentR5].valueAttachment.title)
+* insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.contentType)
+* insert ProducerShallPutInNarrative(extension[valueAttachment].valueAttachment.title)
