@@ -1,44 +1,22 @@
 # MedCom EKG Recording Observation
 
-This page describes how the **MedComEkgRecordingObservation** profile is intended to be used within the MedCom EKG Recording standard.
+This page describes how the **MedCom Ekg Recording Observation** profile is intended to be used within the MedCom EKG Recording standard.
 
 ## Purpose of the Profile
-The profile is designed to represent a complete EKG recording in FHIR, including:
-- Metadata about the EKG study (e.g., timing, performer, and coding)
-- A PDF document containing the actual EKG waveform data
-- A brief note describing the recording
-- The patient reference for whom the EKG was performed
+The profile is designed to:
+- Contain an ECG recording provided as a PDF/A attachment encoded in Base64 in a FHIR extension.
+- Capture the metadata MIME type and title for the attachment.
+- Include a note related to the ECG acquisition: a free-text note used to document relevant measurement-related remarks, with a maximum length of 50 characters.
+- Record the date and time of the ECG acquisition.
+- Provide references to the patient and the organization.
 
-This profile ensures consistent representation of EKG recordings across all Danish healthcare systems following MedCom guidelines.
+## Use of the valueAttachment Extension
 
-## Use of the R5 valueAttachment Extension
-Since FHIR R4 does not support `valueAttachment` natively in `Observation.value[x]`, this profile uses the official **R5 cross-version extension**:
-
-http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]
-
-
-In this IG, the extension is sliced as **valueAttachmentR5** and constrained to the `Attachment` datatype only.
-
-The following constraints apply:
-- The PDF MUST be included using `valueAttachmentR5.valueAttachment.data`
-- The MIME type MUST be `application/pdf`
-- A human-readable title MUST be provided
 
 ## Required Coding
-All EKG recordings SHALL use the LOINC code:
+This Observation resource contains the following codes with corresponding codes system and display values:
 
-- **11524-6 — EKG Study**
+- code.coding:LOINC
 
-This ensures interoperability and consistent interpretation across systems.
 
-## Required Metadata Fields
-The following elements MUST be populated:
-- `Observation.status = final`
-- `Observation.effective[x]` (either `dateTime` or `Period`)
-- `Observation.subject` (reference to the patient)
-- `Observation.performer` (organization that performed the recording)
-- `Observation.note.text` (up to 50 characters)
-
-## Summary
-Use this profile whenever transmitting EKG recording data in MedCom workflows.  
-The combination of standard Observation metadata and the R5 valueAttachment extension ensures that the EKG recording is packaged in a consistent, future-proof way.
+`valueAttachmentR5.valueAttachment.data`
