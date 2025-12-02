@@ -8,7 +8,7 @@ class "MedComDocumentOrganization" as organization <<MedComCoreOrganization>>
 class "MedComDocumentPractitioner" as practitioner <<MedComCorePractitioner>>
 class "MedComDocumentPractitionerRole" as practitionerrole <<MedComCorePractitionerRole>>
 class "MedComDocumentPatient" as patient <<DkCorePatient>>
-class "MedComEkgObservation" as observation <<DkCoreCondition>>
+class "MedComEkgObservation" as observation <<MedComCoreCondition>>
    
 document -- composition : "entry"
 composition -- practitioner : "author:person"
