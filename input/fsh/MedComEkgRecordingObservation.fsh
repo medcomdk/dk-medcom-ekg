@@ -10,10 +10,13 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * effective[x] ^short = "The time or time period of the EKG recording."
 * effectiveDateTime MS
 * effectiveDateTime ^short = "The time of the EKG recording. Use this if effectivePeriod.start is unknown."
+* effectiveDateTime obeys medcom-datetime-has-time-offset-zulu
 * effectivePeriod MS
 * effectivePeriod.start 1..1 MS
+* effectivePeriod.start obeys medcom-datetime-has-time-offset-zulu
 * effectivePeriod.start ^short = "The start time of the EKG recording"
 * effectivePeriod.end 0..1 MS
+* effectivePeriod.end obeys medcom-datetime-has-time-offset-zulu
 * effectivePeriod.end ^short = "The end time of the EKG recording"
 * code.coding[LOINC] 1..1 MS
 * code.coding[LOINC].code MS
@@ -38,8 +41,7 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf (exactly)
 * extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
 * extension[valueAttachment].valueAttachment.title 1..1 MS
-//* extension[valueAttachment].valueAttachment.title ^short = "MUST equal identifier.value appended with '.pdf'. Example: 6ca24102-66dc-47e4-a266-6e5c01131f0e.pdf"
-//* extension[valueAttachment].valueAttachment.title obeys title-matches-identifier
+* extension[valueAttachment].valueAttachment.title = "Elektrokardiogram-12-aflednings"
 
 * insert ProducerShallPutInNarrative(effectiveDateTime)
 * insert ProducerShallPutInNarrative(effectivePeriod.start)
