@@ -3,7 +3,7 @@ Parent: MedComDocumentObservation
 Id: medcom-ekg-recording-observation
 Title: "MedComEkgRecordingObservation"
 Description: "Observation profile intended to be used in MedCom's Ekg Recording standard."
-* status = #final //OBS: Experimental valueset - skal rettes i Terminology IG.
+* status = #final
 * status ^short = "Status MUST be final." 
 * effective[x] only dateTime or Period
 * effective[x] 1..1 MS
