@@ -9,6 +9,9 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * title ^short = "Title MUST be 'Elektrokardiogram-12-aflednings'"
 * author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
 * author[institution] only Reference(MedComDocumentOrganization)
+* category.coding.system = $ClassCodeCS
+* category.coding.code = #001
+* category.coding.display = "Klinisk rapport"
 * section.entry 1.. MS
 * section.entry only Reference(MedComEkgRecordingObservation)
 * confidentiality = #N (exactly)
