@@ -22,6 +22,7 @@ Description: "Bundle instance"
 
 Instance: 384ca229-c562-4a26-a035-c0c38108e036
 InstanceOf: MedComEkgRecordingComposition
+Description: "Composition example for EKG"
 Usage: #example
 //* meta.profile = "1.0" //Indsæt formatcode?
 * text.status = #generated
