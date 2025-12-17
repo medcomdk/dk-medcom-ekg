@@ -7,6 +7,8 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * type.coding.display = "EKG Study" (exactly)
 * title = "Elektrokardiogram-12-aflednings" (exactly)
 * title ^short = "Title MUST be 'Elektrokardiogram-12-aflednings'"
+* meta.profile obeys medcom-canonical-fixed-major
+* meta.profile ^short = "[DocumentEntry.formatCode] The profile canonical SHALL include the major and minor version of the standard in the form `|x.y`."
 * author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
 * author[institution] only Reference(MedComDocumentOrganization)
 * category.coding.system = $ClassCodeCS
