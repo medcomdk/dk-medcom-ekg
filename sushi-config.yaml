@@ -22,7 +22,7 @@ publisher:
 
 dependencies:
   ihe.iti.mhd: 4.2.3
-  hl7.fhir.dk.core: 3.4.0
+  hl7.fhir.dk.core: 3.5.0
   medcom.fhir.dk.core: dev
   medcom.fhir.dk.terminology: 2.0.2
   medcom.fhir.dk.xdsmetadata: dev
