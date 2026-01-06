@@ -28,7 +28,7 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * subject only Reference(MedComDocumentPatient)
 * note 1..1 MS
 * note.text MS
-* note.text ^maxLength = 50
+* note.text ^maxLength = 1024
 * note ^short = "Free-text note, used to document relevant measurement-related remarks."
 * performer ..1
 * performer only Reference(MedComDocumentOrganization)
