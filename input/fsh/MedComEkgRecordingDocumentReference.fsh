@@ -1,4 +1,5 @@
-Profile: MedComEkgRecordingDocumentReference
+//Profiling and release will happen when XDS metadata IG 2.0.0 is released.
+/*Profile: MedComEkgRecordingDocumentReference
 Parent: MedComContainedDocumentReference
 Id: medcom-ekg-recording-documentreference
 Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentReference resource."
@@ -21,6 +22,7 @@ Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentRefere
 * extension.valueCoding from $PlrHomeCommunityID (required) //RCH: Samme kommentar som til type
 * extension.valueString = "1.0.0"
 * content.attachment.url = "Elektrokardiogram-12-aflednings"
+*/
 
 // Metadata instance
 /* Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12

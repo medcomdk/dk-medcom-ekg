@@ -32,7 +32,7 @@ Usage: #example
 * status = #final
 * type.coding.system = $LoincOID
 * type.coding.code = #11524-6
-* type.coding.display = "EKG Study"
+* type.coding.display = "EKG study"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
