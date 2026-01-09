@@ -62,7 +62,7 @@ Usage: #example
 * status = $ObsStatusCodeSystem#final
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
-* code.coding[LOINC].display = "EKG Study"
+* code.coding[LOINC].display = "EKG study"
 * subject = Reference(379ebb53-11e3-42ac-b9db-0bad0ece46d1)
 //* effectiveDateTime = "2025-02-10T10:23:00+01:00"
 * effectivePeriod.start = "2025-02-10T10:00:00+01:00"

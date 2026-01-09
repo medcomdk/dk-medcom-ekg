@@ -22,7 +22,7 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * code.coding[LOINC].code MS
 * code.coding[LOINC].code = #11524-6 (exactly)
 * code.coding[LOINC].display 1.. MS
-* code.coding[LOINC].display = "EKG Study" (exactly)
+* code.coding[LOINC].display = "EKG study" (exactly)
 * code.coding[LOINC].system MS
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)

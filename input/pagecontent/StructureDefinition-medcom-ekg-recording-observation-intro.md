@@ -22,7 +22,7 @@ In all cases, the timing information is mandatory to ensure correct interpretati
 ## Required LOINC coding
 This Observation contains the fixed code:
 
-- code.coding:LOINC: code: `11524-6` system: `http://loinc.org` display: `EKG Study`.
+- code.coding:LOINC: code: `11524-6` system: `http://loinc.org` display: `EKG study`.
 
 ## Resource references
 This Observation references the `Patient` resource through the `subject` element and the author `Organization` through the `performer` element.
