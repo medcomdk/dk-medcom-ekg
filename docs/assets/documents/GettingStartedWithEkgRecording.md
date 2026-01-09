@@ -22,8 +22,8 @@ This page provides an overview of where you, as a vendor, can find information, 
 ### New to FHIR?
 If you are new to FHIR, [this page]( https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html) gives you a short introduction to the basic principles and structure of the FHIR standard.  
 In addition, MedCom offers two introductory webinars that provide a good starting point for understanding FHIR:
-- [FHIR Introduction Webinar (May 17, 2022)](https://www.youtube.com/watch?v=8doBKskz3J8)  
-- [FHIR Demo Webinar with MedCom, Mjølner, and Trifork (February 10, 2022)](https://www.youtube.com/watch?v=bfzx7U2Suug)  
+- [FHIR Introduction Webinar (May 17, 2022)](https://www.youtube.com/watch?v=8doBKskz3J8).
+- [FHIR Demo Webinar with MedCom, Mjølner, and Trifork (February 10, 2022)](https://www.youtube.com/watch?v=bfzx7U2Suug).
 
 ### MedCom Landing Page
 This is the best place to start if you are already familiar with FHIR. Here you can find:
@@ -32,11 +32,11 @@ This is the best place to start if you are already familiar with FHIR. Here you 
 - Versioning principles  
 - Information about the testing and certification process  
 
-[Visit MedCom Landing Page](https://medcomdk.github.io/MedComLandingPage/)
+[Visit MedCom Landing Page](https://medcomdk.github.io/MedComLandingPage/).
 
 ### Guidance for Narrative Text
 This page provides guidance on what the narrative text must contain and the associated requirements.  
-[Guidance for narrative texts](https://medcomdk.github.io/MedComLandingPage/assets/documents/GeneralGovernanceFHIRStandards.html#5-implementation-requirements-for-narrative-texts)
+[Guidance for narrative texts](https://medcomdk.github.io/MedComLandingPage/assets/documents/GeneralGovernanceFHIRStandards.html#5-implementation-requirements-for-narrative-texts).
 
 ### Governance for MedCom FHIR Validation
 
@@ -48,16 +48,16 @@ The [governance for MedCom FHIR Validation can be found here](https://medcomdk.g
 
 ### FHIR Zulip Chat
 A global chat forum where FHIR developers from around the world share knowledge and answer questions.
-- Well suited for technical and professional discussions on FHIR-specific topics  .
+- Well suited for technical and professional discussions on FHIR-specific topics.
 - You typically receive a response within minutes.  
 
-[Visit FHIR Zulip Chat](https://chat.fhir.org/)
+[Visit FHIR Zulip Chat](https://chat.fhir.org/).
 
 ---
 
 ## MedCom EKG Recording standard
 
 ### EKG Recording Implementation Guide (IG)
-The technical documentation for CareCommunication, including profiles, constraints, examples, and usage rules.  
-[CareCommunication Implementation Guide](https://medcomfhir.dk/ig/ekg/)
+The technical documentation for EKG Recording, including profiles, constraints, examples, and usage rules.  
+[EKG Recording Implementation Guide](https://medcomfhir.dk/ig/ekg/).
 
