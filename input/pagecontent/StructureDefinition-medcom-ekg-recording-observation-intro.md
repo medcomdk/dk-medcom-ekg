@@ -10,12 +10,20 @@ This Observation contains a FHIR extension designed to hold an EKG recording as 
 ### EKG Recording note
 This Observation includes a free-text note related to the EKG acquisition, intended for documenting brief, measurement-related remarks. To ensure consistency and concise usage, the note is limited to a maximum length of 50 characters.
 
+### Line breaks and special characters in the note
+Implementations must preserve the logical string value, including line breaks and Unicode characters, across both XML and JSON.Line breaks in FHIR string values must follow the underlying format:
+
+- In JSON, line breaks **SHALL** be written as the escaped newline sequence `\n` inside the string.
+- In XML, line breaks **SHALL** be represented either as a literal newline in the element text or as the character reference `&#xA;`. Escaping of characters in XML **SHALL** preserve the logical value of the FHIR string. XML-reserved characters `&`, `<`, `>` **SHALL** be escaped, while the double quotation mark `"` **MAY** be escaped; both forms **SHALL** be accepted.
+
+Unicode characters (e.g. ÆØÅ, ë, ð, ý) **SHALL** be supported without restriction in both XML and JSON.
+
 ### EKG Recording date and time
 The `effective[x]` element is used to represent the timing of the EKG recording and must be provided either as a `dateTime` or a `Period`.
 
 - `effectivePeriod.start` – Represents the exact start time of the EKG recording and is required if known.
 - `effectivePeriod.end` – Represents the exact end time of the EKG recording and is required if known in combination with `effectivePeriod.start`.
-- `effectiveDateTime` – Used when only when the exact start time is unknown.
+- `effectiveDateTime` – Used only when the exact start time is unknown.
 
 In all cases, the timing information is mandatory to ensure correct interpretation of the EKG data.
 
