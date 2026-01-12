@@ -69,8 +69,57 @@ Usage: #example
 * effectivePeriod.end = "2025-02-10T10:15:00+01:00"
 * performer = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
 * note.text = "Pt. urolig under optagelse.
-Linje 2 af noten.
-Specialtegn på linje 3 – % & / ( ) = ? ! , . : ; ' \" + - * < > @ # Ü ü Ë ë É é È è Á á Ó ó Ñ ñ Ç ç ß Ø ø Å å Ð ð Ý ý"
+Test af linieskift:
+1 linieskift:
+2 linieskift:
+
+3 linieskift: 
+
+
+Escaped ved XML (ikke escaped ved JSON):
+Mindre end: <
+Større end: >
+\"Og-tegn\": &
+Anførselstegn: \"
+
+Specialkarakterer:
+Apostrof: '
+Procent: %
+Skråstreg: /
+Parentes start: (
+Parentes slut: )
+Firkant parentes start: [
+Firkant parentes slut: ]
+Krøllet parentes start: {
+Krøllet parentes slut: }
+Lig med: =
+Spørgsmålstegn: ?
+Udråbstegn: !
+Komma: ,
+Punktum: .
+Kolon: :
+Semikolon: ;
+Plus: +
+Bindestreg: -
+Stjerne: *
+Snabel-a: @
+Havelåge: #
+Dansk AE: Æ
+Dansk ae: æ
+Dansk OE: Ø
+Dansk oe: ø
+Dansk AA: Å
+Dansk aa: å
+
+Andre specialkarakterer: Ü ü Ë ë É é È è Á á Ó ó Ñ ñ Ç ç ß Ø ø Å å Ð ð Ý ý
+
+Test af mellemrum:
+1 mellemrum: 2 mellemrum:  3 mellemrum:   4 mellemrum:    |
+     5 mellemrum før denne linie starter.
+
+Test af TAB/tabulator:
+TAB	TAB	TAB	TAB	|
+T1	T2	T3	T4	|"
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf
 * extension[valueAttachment].valueAttachment.title = "Elektrokardiogram-12-aflednings"
@@ -127,4 +176,3 @@ Usage: #example
 * identifier[SOR-ID].value = "61741000016007"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Hasseris Bymidte"
-
