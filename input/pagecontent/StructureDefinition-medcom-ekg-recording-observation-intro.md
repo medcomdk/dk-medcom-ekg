@@ -8,10 +8,10 @@ This profile specifies how the Observation represents the PDF/A-encoded EKG reco
 This Observation contains a FHIR extension designed to hold an EKG recording as a PDF/A file encoded in Base64. The `valueAttachment` element is implemented as an extension because the base `value[x]` element does not support the `Attachment` type in FHIR R4. The extension also captures essential metadata for the attachment - the MIME type and the title.
 
 ### EKG Recording note
-This Observation includes a free-text note related to the EKG acquisition, intended for documenting brief, measurement-related remarks. To ensure consistency and concise usage, the note is limited to a maximum length of 50 characters.
+This Observation includes a free-text note related to the EKG acquisition, intended for documenting brief, measurement-related remarks. To ensure consistency and concise usage, the note is limited to a maximum length of 1024 characters and allows line breaks.
 
-### Line breaks and special characters in the note
-Implementations must preserve the logical string value, including line breaks and Unicode characters, across both XML and JSON.Line breaks in FHIR string values must follow the underlying format:
+#### Line breaks and special characters in the note
+Implementations must preserve the logical string value, including line breaks and Unicode characters, across both XML and JSON. Line breaks in FHIR string values must follow the underlying format:
 
 - In JSON, line breaks **SHALL** be written as the escaped newline sequence `\n` inside the string.
 - In XML, line breaks **SHALL** be represented either as a literal newline in the element text or as the character reference `&#xA;`. Escaping of characters in XML **SHALL** preserve the logical value of the FHIR string. XML-reserved characters `&`, `<`, `>`, and `"` **SHALL** be escaped.

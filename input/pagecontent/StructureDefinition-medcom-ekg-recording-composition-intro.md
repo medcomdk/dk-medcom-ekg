@@ -3,7 +3,13 @@
 This page describes how the **MedCom Ekg Recording Composition** profile is intended to be used within the MedCom EKG Recording standard.
 
 ## Purpose of the Profile
-The profile is designed to represent a complete EKG recording in FHIR, including:
+
+<!--The profile is designed to represent a complete EKG recording in FHIR, including:-->
+This resource is intended to bring together and link the various resources used for sharing ECG recordings. The specific resources are:
+
+- Patient (MedComDocumentPatient)​
+- Organization (MedComDocumentOrganization)​
+- Observation 
 
 ### Profile identification and versioning (meta.profile)
 

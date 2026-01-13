@@ -86,6 +86,7 @@ Special characters:
 Apostrophe: '
 Percent: %
 Slash: /
+Backslash: /
 Parenthesis open: (
 Parenthesis close: )
 Square bracket open: [
