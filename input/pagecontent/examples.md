@@ -6,4 +6,6 @@ This section describes an example of an EKG Recording Bundle concerning the citi
 
 The example includes a MedCom FHIR EKG Recording Document Bundle with the following resources included: Composition, an Observation containing the actual EKG recording, a Patient, and the sending organization, PractitionerRole and Practitioner.
 
+The example also includes the clinical note as a string, demonstrating which types of formatting and characters are permitted.
+
 Find the [example here](Bundle-0a74554f-ded3-4bc7-bef1-535699565c5a.html) in both JSON and XML.
