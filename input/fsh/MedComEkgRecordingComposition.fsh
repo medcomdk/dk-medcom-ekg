@@ -11,6 +11,7 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * meta.profile ^short = "[DocumentEntry.formatCode] The profile canonical SHALL include the major and minor version of the standard in the form `|x.y`."
 * author only Reference(MedComDocumentOrganization or MedComDocumentPractitioner or MedComDocumentPractitionerRole)
 * author[institution] only Reference(MedComDocumentOrganization)
+* category 1..
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
