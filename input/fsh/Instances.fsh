@@ -68,56 +68,56 @@ Usage: #example
 * effectivePeriod.start = "2025-02-10T10:00:00+01:00"
 * effectivePeriod.end = "2025-02-10T10:15:00+01:00"
 * performer = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
-* note.text = "Pt. urolig under optagelse.
-Test af linieskift:
-1 linieskift:
-2 linieskift:
+* note.text = "Patient restless during recording.
+Test of line breaks:
+1 line break:
+2 line breaks:
 
-3 linieskift: 
+3 line breaks: 
 
 
-Escaped ved XML (ikke escaped ved JSON):
-Mindre end: <
-Større end: >
-\"Og-tegn\": &
-Anførselstegn: \"
+Escaped in XML (not escaped in JSON):
+Less than: <
+Greater than: >
+\"Ampersand\": &
+Quotation mark: \"
 
-Specialkarakterer:
-Apostrof: '
-Procent: %
-Skråstreg: /
-Parentes start: (
-Parentes slut: )
-Firkant parentes start: [
-Firkant parentes slut: ]
-Krøllet parentes start: {
-Krøllet parentes slut: }
-Lig med: =
-Spørgsmålstegn: ?
-Udråbstegn: !
-Komma: ,
-Punktum: .
-Kolon: :
-Semikolon: ;
+Special characters:
+Apostrophe: '
+Percent: %
+Slash: /
+Parenthesis open: (
+Parenthesis close: )
+Square bracket open: [
+Square bracket close: ]
+Curly brace open: {
+Curly brace close: }
+Equals sign: =
+Question mark: ?
+Exclamation mark: !
+Comma: ,
+Period: .
+Colon: :
+Semicolon: ;
 Plus: +
-Bindestreg: -
-Stjerne: *
-Snabel-a: @
-Havelåge: #
-Dansk AE: Æ
-Dansk ae: æ
-Dansk OE: Ø
-Dansk oe: ø
-Dansk AA: Å
-Dansk aa: å
+Hyphen: -
+Asterisk: *
+At sign: @
+Hash: #
+Danish AE: Æ
+Danish ae: æ
+Danish OE: Ø
+Danish oe: ø
+Danish AA: Å
+Danish aa: å
 
-Andre specialkarakterer: Ü ü Ë ë É é È è Á á Ó ó Ñ ñ Ç ç ß Ø ø Å å Ð ð Ý ý
+Other special characters: Ü ü Ë ë É é È è Á á Ó ó Ñ ñ Ç ç ß Ø ø Å å Ð ð Ý ý
 
-Test af mellemrum:
-1 mellemrum: 2 mellemrum:  3 mellemrum:   4 mellemrum:    |
-     5 mellemrum før denne linie starter.
+Test of spaces:
+1 space: 2 spaces:  3 spaces:   4 spaces:    |
+     5 spaces before this line starts.
 
-Test af TAB/tabulator:
+Test of TAB/tabulator:
 TAB	TAB	TAB	TAB	|
 T1	T2	T3	T4	|"
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
