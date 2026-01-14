@@ -8,7 +8,7 @@ Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentRefere
 * type.coding.system = $loinc (exactly) //RCH: OBS: Disse linjer er også kopieret til Composition.
 * type.coding.code = #11524-6 (exactly)
 * type.coding.display = "EKG Study" (exactly) //RCH: Skal denne være med? Det er jo bare en display value
-//* type = $loinc#24412-3 "ECG, electrocardiagram" //RC: Hvad er kravene til type? Jeg har valgt kode fra den binding der er lavet.
+//* type = $loinc#24412-3 "EKG, electrocardiagram" //RC: Hvad er kravene til type? Jeg har valgt kode fra den binding der er lavet.
 * category from $ClassCodeVS (required) //Er det korrekt at man binder til valuesettet her, og så sætter systemet sådan som i linjen under?
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001 (exactly)

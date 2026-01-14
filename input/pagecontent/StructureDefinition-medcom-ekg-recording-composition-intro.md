@@ -7,7 +7,7 @@ The MedComDocumentComposition profile defines the structure and narrative conten
 ## Purpose of the Profile
 
 <!--The profile is designed to represent a complete EKG recording in FHIR, including:-->
-This resource links the various resources used for sharing ECG recordings. The specific resources are:
+This resource links the various resources used for sharing EKG recordings. The specific resources are:
 
 - `Observation` (MedComDocumentObservation)​
 - `Patient` (MedComDocumentPatient)​

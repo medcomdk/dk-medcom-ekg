@@ -28,4 +28,4 @@ Description: "A profile for the MedCom Ekg Recording Composition resource."
 * event.period.end 0..1 MS
 * event.period.end obeys medcom-datetime-has-time-offset-zulu
 * event.period.start ^short = "The end time of the EKG recording"
-* date ^short = "The clinical date and time when the clinical report represented by this Composition was finalized, typically equal to the event.period.end of the recorded ECG. If event.period.end is not available, use event.period.start or Observation.effectiveDateTime."
+* date ^short = "The clinical date and time when the clinical report represented by this Composition was finalized, typically equal to the event.period.end of the recorded EKG. If event.period.end is not available, use event.period.start or Observation.effectiveDateTime."
