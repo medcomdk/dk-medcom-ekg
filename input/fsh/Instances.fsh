@@ -4,7 +4,7 @@ Usage: #example
 Title: "Bundle instance"
 Description: "Bundle instance"
 * type = #document
-* timestamp = 2025-02-10T10:18:00+01:00
+* timestamp = 2026-01-14T10:18:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:3e9fadb1-04e6-42ce-82d3-546f89e2f0fa"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/384ca229-c562-4a26-a035-c0c38108e036"
@@ -41,10 +41,11 @@ Usage: #example
 * author[+] = Reference(bb6fa4e1-f8b1-4bf4-b77e-bb03b2cc9820)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2025-02-10T10:00:00+01:00"
-* event.period.end = "2025-02-10T10:15:00+01:00"
+* event.period.start = "2026-01-14T10:00:00+01:00"
+* event.period.end = "2026-01-14T10:15:00+01:00"
 * section[0].entry[0] = Reference(ef810168-ee8c-4f14-9012-6aff6c1d86e7)
-* date = "2025-02-10T10:15:00+01:00"
+* timestamp = 2026-01-14T10:18:00+01:00
+* date = "2026-01-14T10:15:00+01:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|1.0"
 //OBS: attester, event.code, event.detail bruges ikke i EKG - skriv det i profilteksten.
@@ -64,9 +65,9 @@ Usage: #example
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(379ebb53-11e3-42ac-b9db-0bad0ece46d1)
-//* effectiveDateTime = "2025-02-10T10:23:00+01:00"
-* effectivePeriod.start = "2025-02-10T10:00:00+01:00"
-* effectivePeriod.end = "2025-02-10T10:15:00+01:00"
+//* effectiveDateTime = "2026-01-14T10:23:00+01:00"
+* effectivePeriod.start = "2026-01-14T10:00:00+01:00"
+* effectivePeriod.end = "2026-01-14T10:15:00+01:00"
 * performer = Reference(f8d0eb07-5336-4005-9081-b065f9a82663)
 * note.text = "Patient restless during recording.
 Test of line breaks:
