@@ -47,12 +47,3 @@ If `Observation.effectivePeriod.start` is known, this ***MUST** be inserted as `
 If `Observation.effectivePeriod.start` is **NOT** known, effectiveDateTime **MUST** be inserted as `Composition.event.period.start`.
 
 If `Observation.effectivePeriod.end` is known, this ***MUST** be inserted as `Composition.event.period.end`.
-
-### EKG Recording date and time
-The `effective[x]` element is used to represent the timing of the EKG recording and must be provided either as a `dateTime` or a `Period`.
-
-- `effectivePeriod.start` – Represents the exact start time of the EKG recording and is required if known.
-- `effectivePeriod.end` – Represents the exact end time of the EKG recording and is required if known in combination with `effectivePeriod.start`.
-- `effectiveDateTime` – Used only when the exact start time is unknown.
-
-In all cases, the timing information is mandatory to ensure correct interpretation of the EKG data.
