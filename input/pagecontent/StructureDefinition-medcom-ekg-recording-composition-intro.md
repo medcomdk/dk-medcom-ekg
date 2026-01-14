@@ -1,15 +1,20 @@
 # MedCom EKG Recording Conposition
 
-This page describes how the **MedCom Ekg Recording Composition** profile is intended to be used within the MedCom EKG Recording standard.
+This page describes how the **MedCom Ekg Recording Composition** profile is used within the MedCom EKG Recording standard.
+
+The MedComDocumentComposition profile defines the structure and narrative content necessary for a document. However, a Composition alone does not constitute a document. Rather, the Composition must be the first entry in a Bundle where Bundle.type is 'document', and any other resources referenced from Composition must be included as subsequent entries in the Bundle.entry element.
 
 ## Purpose of the Profile
 
 <!--The profile is designed to represent a complete EKG recording in FHIR, including:-->
-This resource is intended to bring together and link the various resources used for sharing ECG recordings. The specific resources are:
+This resource links the various resources used for sharing ECG recordings. The specific resources are:
 
-- Patient (MedComDocumentPatient)​
-- Organization (MedComDocumentOrganization)​
-- Observation 
+- `Observation` (MedComDocumentObservation)​
+- `Patient` (MedComDocumentPatient)​
+- `Organization` (MedComDocumentOrganization)​
+- `PractitionerRole` (MedComDocumentPractitionerRole) and/or Practitioner (MedComDocumentPractitioner) (both optional)
+
+The `section.entry` element **MUST** reference the MedComDocumentObservation that contains the EKG PDF-A attachment.
 
 ### Profile identification and versioning (meta.profile)
 
@@ -29,7 +34,4 @@ The `[major].[minor]` version components are versioned in lockstep.   Any change
 
 - **FHIR `Composition.meta.profile`:**  
   `http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|1.0`
-
-## Required Coding
-All EKG recordings SHALL use...
 
