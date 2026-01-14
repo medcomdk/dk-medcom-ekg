@@ -1,8 +1,4 @@
 # MedCom EKG Recording Bundle
-This page describes how the **MedCom Ekg Recording Bundle** profile is intended to be used within the MedCom EKG Recording standard.
+This page describes how the **MedCom Ekg Recording Bundle** profile is used within the MedCom EKG Recording standard. It inherits from the [MedComDocumentBundle](https://medcomfhir.dk/ig/document/StructureDefinition-medcom-document-bundle.html). Please note that the version of the Document Implementation Guide referenced by this link may change over time. For the correct inherited version, refer to the dependency list for this Implementation Guide.
 
-## Purpose of the Ressource Profile
-<!--The profile is designed to represent a complete EKG recording in FHIR, including:-->
-
-## Required Coding
-All EKG recordings SHALL use...
+The first entry in the Bundle **MUST** be a MedComEkgRecordingComposition resource.
