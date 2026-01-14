@@ -7,7 +7,7 @@
   * [1.2 Technical specification](#12-technical-specification)
 * [2 Test and Certification](#2-test-and-certification)
 
-The MedCom Shared EKG Recording standard (DA: MedCom Deling af EKG-optagelser), named EKG Recording, enables cross-sectoral sharing of electrocardiograms (EKGs). The standard supports the establishment of a national sharing portal for EKG data in the form of PDF documents enclosed in a FHIR Document. The solution ensures near real-time access to EKG data across the Danish healthcare sector.
+The MedCom Shared EKG Recording standard (DA: Deling af EKG-optagelser), named EKG Recording, enables cross-sectoral sharing of electrocardiograms (EKGs). The standard supports the establishment of a national sharing portal for EKG data in the form of PDF documents enclosed in a FHIR Document.
 
 **New to the EKG Recording standard?**  
 > Start here: [Getting Started – EKG Recording](assets/documents/GettingStartedWithEkgRecording.md).
@@ -15,8 +15,8 @@ The MedCom Shared EKG Recording standard (DA: MedCom Deling af EKG-optagelser), 
 
 ## 1 Standard Documentation {#standard}
 The standard documentation below provides the necessary content to understand the role of the EKG Recording FHIR Document, what to implement and how to obtain a MedCom certificate. The standard documentation for EKGRecording includes:
-  * User stories *(Will be published when available)*
-  * Use cases *(Will be published when available)*
+  * User stories
+  * Use cases
   * Technical Specifications in terms of the relevant Implementation Guides (IGs).
 <p>&nbsp;</p>
 
