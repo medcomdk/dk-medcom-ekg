@@ -26,7 +26,7 @@ dependencies:
   medcom.fhir.dk.core: 4.0.0
   medcom.fhir.dk.terminology: 2.0.2
   medcom.fhir.dk.xdsmetadata: 1.0.1
-  medcom.fhir.dk.document: dev
+  medcom.fhir.dk.document: 2.0.0
   hl7.fhir.uv.extensions.r4: 5.2.0
   hl7.fhir.extensions.r5: 4.0.1
 
