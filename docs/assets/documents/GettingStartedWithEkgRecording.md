@@ -56,6 +56,8 @@ MedCom Core provides the foundational profiles and rules that are reused across 
 
 MedCom Document defines the general framework for document-based FHIR exchanges within MedCom.
 
+A mapping from IHE XDS metadata to FHIR can be found here [IHE XDS metadata to FHIR](https://medcomdk.github.io/dk-medcom-document/assets/documents/Mapping_from_IHE-XDS_metadata_to_FHIR.html) as part of the MedCom FHIR Document documentation. DocumentReference is currently not used in the Danish infrastructure, but the mapping to Bundle and Composition can be helpful.
+
 ### Guidance for Narrative Text
 This page provides guidance on what the narrative text must contain and the associated requirements.  
 [Guidance for narrative texts](https://medcomdk.github.io/MedComLandingPage/assets/documents/GeneralGovernanceFHIRStandards.html#5-implementation-requirements-for-narrative-texts).
