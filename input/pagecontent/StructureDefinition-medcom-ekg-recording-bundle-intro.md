@@ -3,4 +3,4 @@ This page describes how the **MedCom Ekg Recording Bundle** profile is used with
 
 The first entry in the Bundle **MUST** be a MedComEkgRecordingComposition resource.
 
-The Bundle.timestamp **MUST** be the time of the assemblement of the Bundle.
+The `Bundle.timestamp` **MUST** be the time of the assemblement of the Bundle.
