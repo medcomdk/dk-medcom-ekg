@@ -16,6 +16,8 @@ This resource links the various resources used for sharing ECG recordings. The s
 
 The `section.entry` element **MUST** reference the MedComDocumentObservation that contains the EKG PDF-A attachment.
 
+It is required to use the profiles `MedComDocumentObservation` (representing the EKG PDF-A file and an optional note), `MedComDocumentPatient` (the patient of the EKG recording) and `MedComDocumentOrganization` (the author organization of the EKG recording), whereas it is optional to include a `MedComDocumentPractitionerRole` and/or `MedComDocumentPractitioner` (representing the author person).
+
 ### Profile identification and versioning (meta.profile)
 
 The meta.profile element identifies the applied FHIR Composition profile, including the major and minor version of the MedCom document standard. Systems **SHALL** be able to receive and process documents where the minor version differs in this element, as long as the major version remains unchanged.
