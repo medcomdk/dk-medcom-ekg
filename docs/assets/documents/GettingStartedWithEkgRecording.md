@@ -7,7 +7,8 @@ This page provides an overview of where you, as a vendor, can find information, 
 ## Table of Contents
 1. [General Introduction and Governance](#general-introduction-and-governance)  
    - [New to FHIR?](#new-to-fhir)  
-   - [MedCom Landing Page](#medcom-landing-page)  
+   - [MedCom Landing Page](#medcom-landing-page)
+   - [Dependencies and Inheritance](#dependencies-and-inheritance)
    - [Guidance for Narrative Text](#guidance-for-narrative-text)  
    - [Governance for MedCom FHIR Validation](#governance-for-medcom-fhir-validation)  
 2. [FHIR Forum and Support](#fhir-forum-and-support)  
@@ -34,6 +35,27 @@ This is the best place to start if you are already familiar with FHIR. Here you 
 
 [Visit MedCom Landing Page](https://medcomdk.github.io/MedComLandingPage/).
 
+### Dependencies and Inheritance
+
+The EKG Recording Implementation Guide is not a standalone specification. It builds on and inherits rules, profiles, and design principles from other MedCom Implementation Guides (IG) and MedCom FHIR Governance. When implementing EKG Recording, it is therefore essential to be aware of what applies implicitly through inheritance.
+
+In particular, the EKG Recording IG depends on these highlighted IGs:
+
+- [Dk MedCom Core IG](https://medcomfhir.dk/ig/core/)
+- [MedCom Document](https://medcomfhir.dk/ig/document/)
+
+**Note** that the IG versions linked may be newer than the versions used as dependencies in the EKG IG. For the exact dependency versions applied, see the Dependencies tab in the top menu under More in the EKG IG.
+
+These Implementation Guides define common structures, constraints, and governance principles that apply across all MedCom FHIR standards and FHIR Documents. Vendors are strongly encouraged to familiarize themselves with MedCom Core and MedCom Document treat them as integral parts of the EKG Recording standard.
+
+**MedCom Core**
+
+MedCom Core provides the foundational profiles and rules that are reused across MedCom standards.
+
+**MedCom Document**
+
+MedCom Document defines the general framework for document-based FHIR exchanges within MedCom.
+
 ### Guidance for Narrative Text
 This page provides guidance on what the narrative text must contain and the associated requirements.  
 [Guidance for narrative texts](https://medcomdk.github.io/MedComLandingPage/assets/documents/GeneralGovernanceFHIRStandards.html#5-implementation-requirements-for-narrative-texts).
@@ -58,6 +80,5 @@ A global chat forum where FHIR developers from around the world share knowledge 
 ## MedCom EKG Recording standard
 
 ### EKG Recording Implementation Guide (IG)
-The technical documentation for EKG Recording, including profiles, constraints, examples, and usage rules.  
-[EKG Recording Implementation Guide](https://medcomfhir.dk/ig/ekg/).
+The technical documentation for EKG Recording, including profiles, constraints, examples, and usage rules is found here: [EKG Recording Implementation Guide](https://medcomfhir.dk/ig/ekg/).
 
