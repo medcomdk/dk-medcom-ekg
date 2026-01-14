@@ -1,4 +1,4 @@
-## Introdukction
+## Introduction
 
 The EKG project has been established with the overall objective of supporting secure, consistent, and nationwide sharing of electrocardiograms (EKGs) across healthcare providers. Today, EKGs are recorded both in general practice and in regional healthcare settings, and there is a clinical and organizational need to make these EKGs accessible across sectors, regardless of the originating system.
 

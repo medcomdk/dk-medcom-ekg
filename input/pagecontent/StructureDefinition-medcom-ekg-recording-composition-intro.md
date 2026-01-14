@@ -40,10 +40,10 @@ The `[major].[minor]` version components are versioned in lockstep.   Any change
 
 #### Timestamps
 
-`Composition.event.period.start` and `Composition.event.period.end` is used to represent the timing of the EKG recording.
+`Composition.event.period.start` and `Composition.event.period.end` is used to represent the time interval of the EKG recording.
 
-If `Observation.effectivePeriod.start` is known, this ***MUST** be inserted as `Composition.event.period.start`.
+If `Observation.effectivePeriod.start` is known, this **MUST** be inserted as `Composition.event.period.start`.
 
-If `Observation.effectivePeriod.start` is **NOT** known, effectiveDateTime **MUST** be inserted as `Composition.event.period.start`.
+If `Observation.effectivePeriod.start` is **NOT** known, `Observation.effectiveDateTime` **MUST** be inserted as `Composition.event.period.start` instead.
 
-If `Observation.effectivePeriod.end` is known, this ***MUST** be inserted as `Composition.event.period.end`.
+If `Observation.effectivePeriod.end` is known, this **MUST** be inserted as `Composition.event.period.end`. If this is **NOT** known, this can be left empty, as it is optional.
