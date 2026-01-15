@@ -17,7 +17,7 @@ The figure shows the structure of an EKG Recording. It represents the structure 
 
 The Bundle serves as the container for all resources included in the message. All resources are included as entries in the Bundle, and all references between resources are resolved internally within the same Bundle.
 
-The first entry in the Bundle is the Composition, which represents the document root and defines the overall clinical and structural context of the message. The Composition references the Observation resource as its content entry.
+The first entry in the Bundle is the Composition, and defines the overall clinical and structural context of the message. The Composition references the Observation resource as its content entry.
 
 In addition to Composition and Observation, the Bundle includes the Patient, Organization, PractitionerRole, and Practitioner resources. These resources provide the clinical subject and the organizational and professional context of the message. The use of PractitionerRole and Practitioner is optional.
 
