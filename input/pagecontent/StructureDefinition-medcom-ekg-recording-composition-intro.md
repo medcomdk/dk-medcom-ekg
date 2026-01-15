@@ -1,4 +1,4 @@
-# MedCom EKG Recording Conposition
+# MedCom EKG Recording Composition
 
 This page describes how the **MedCom Ekg Recording Composition** profile is used within the MedCom EKG Recording standard.
 
