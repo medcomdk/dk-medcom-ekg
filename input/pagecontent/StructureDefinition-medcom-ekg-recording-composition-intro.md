@@ -9,14 +9,14 @@ The MedComDocumentComposition profile defines the structure and narrative conten
 <!--The profile is designed to represent a complete EKG recording in FHIR, including:-->
 This resource links the various resources used for sharing EKG recordings. The specific resources are:
 
-- `Observation` (MedComDocumentObservation)​
+- `Observation` (MedComEkgRecordingObservation)​
 - `Patient` (MedComDocumentPatient)​
 - `Organization` (MedComDocumentOrganization)​
 - `PractitionerRole` (MedComDocumentPractitionerRole) and/or Practitioner (MedComDocumentPractitioner) (both optional)
 
-The `section.entry` element **MUST** reference the MedComDocumentObservation that contains the EKG PDF-A attachment.
+The `section.entry` element **MUST** reference the MedComEkgRecordingObservation that contains the EKG PDF-A attachment.
 
-It is required to use the profiles `MedComDocumentObservation` (representing the EKG PDF-A file and an optional note), `MedComDocumentPatient` (the patient of the EKG recording) and `MedComDocumentOrganization` (the author organization of the EKG recording), whereas it is optional to include a `MedComDocumentPractitionerRole` and/or `MedComDocumentPractitioner` (representing the author person).
+It is required to use the profiles `MedComEkgRecordingObservation` (representing the EKG PDF-A file and an optional note), `MedComDocumentPatient` (the patient of the EKG recording) and `MedComDocumentOrganization` (the author organization of the EKG recording), whereas it is optional to include a `MedComDocumentPractitionerRole` and/or `MedComDocumentPractitioner` (representing the author person).
 
 ### Profile identification and versioning (meta.profile)
 

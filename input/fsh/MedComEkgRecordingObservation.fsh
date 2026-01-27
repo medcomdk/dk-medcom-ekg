@@ -26,7 +26,7 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * code.coding[LOINC].system MS
 * subject 1..1 MS
 * subject only Reference(MedComDocumentPatient)
-* note 1..1 MS
+* note 0..1 MS
 * note.text MS
 * note.text ^maxLength = 1024
 * note ^short = "Free-text note, used to document relevant measurement-related remarks. Line breaks in FHIR string values must be represented as escaped newline characters \\n in JSON and either as a literal newline in the element text or as the character reference &#xA; in XML."
