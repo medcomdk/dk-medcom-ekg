@@ -1,7 +1,7 @@
 ## Release Notes
 
 This release is published as a **patch release**. It addresses issues that were identified shortly after publication, and as a result, **no implementations of versions 1.0.0 or 1.0.1 are expected to exist**.  
-Therefore, **versions 1.0.0 and 1.0.1 MUST not be used**.
+Therefore, **versions 1.0.0 and 1.0.1 MUST NOT be used**.
 
 ### Changes
 
