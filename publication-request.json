@@ -1,10 +1,10 @@
 {
     "package-id": "medcom.fhir.dk.ekg",
-    "version": "1.0.1",
-    "path": "http://medcomfhir.dk/ig/ekg/1.0.1",
+    "version": "1.0.2",
+    "path": "http://medcomfhir.dk/ig/ekg/1.0.2",
     "status": "release",
     "sequence": "Release 1.x.x",
     "mode" : "milestone",
     "descmd": "@release-notes.md",
-    "desc": "Release 1.0.1 - see release notes"
+    "desc": "Release 1.0.2 - see release notes"
 }
