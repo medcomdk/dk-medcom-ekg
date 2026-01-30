@@ -1,3 +1,4 @@
+//Søren-test
 Alias: $loinc = http://loinc.org
 Alias: $PlrTypeCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-plr-typecode-VS
 Alias: $PlrHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-homeCommunityId-VS
