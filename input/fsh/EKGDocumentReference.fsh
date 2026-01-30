@@ -10,16 +10,16 @@ Description: "A profile for the MedCom Profile: MedComEkgRecordingDocumentRefere
 * extension[versionid].valueString = "1.0.0"
 * content.attachment.title = "Elektrokardiogram-12-aflednings"
 
-
+// EKGDocumentReference
 // Metadata instance
-Instance: 8d16ea51-3264-44ba-b0d8-54b2767acb17
+Instance: 962b1afd-8771-412b-9e0d-1b1f6cc4ac94
 InstanceOf: MedComEkgRecordingDocumentReference
 Title: "DocumentReference instance"
 Description: "DocumentReference instance"
 * contained[+] = 1fcad31f-8967-4f49-b6af-7e64082e8fec   // MedComDocumentPractitioner
 * contained[+] = fd3206c6-c265-49f9-82c3-8b4c96280403   // MedComDocumentOrganization
 * contained[+] = 69e475df-20c8-4f54-8cea-9843568205fd   // MedComDocumentPatient
-* contained[+] = XXX                                    // MedComDocumentPractitionerRole
+//* contained[+] = XXX                                    // MedComDocumentPractitionerRole
 * masterIdentifier.value = "urn:uuid:bf1bb63b-d405-4dfe-9810-37b16b333a01"
 * masterIdentifier.system = "urn:ietf:rfc:3986"
 * status = #current "Current"
@@ -42,5 +42,5 @@ Description: "DocumentReference instance"
 * context.practiceSetting = $sct#408443003 "almen medicin"
 * context.sourcePatientInfo.identifier.value = "2509479989"
 * context.sourcePatientInfo = Reference(69e475df-20c8-4f54-8cea-9843568205fd)
-* extension[homeCommunityid].valueCoding = $DanishxdsOID#1.2.208.176.8.1 "Common Danish IHE XDS domain. Integrating the Healthcare Enterprise (IHE) cross[X]-enterprise Document Sharing (XDS) domain"
+* extension[homeCommunityid].valueCoding = $DanishXdsOID#1.2.208.176.8.1 "Common Danish IHE XDS domain. Integrating the Healthcare Enterprise (IHE) cross[X]-enterprise Document Sharing (XDS) domain"
 * extension[versionid].valueString = "1.0.0"

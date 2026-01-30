@@ -1,3 +1,4 @@
+/*
 Instance: 0a74554f-ded3-4bc7-bef1-535699565c5a
 InstanceOf: MedComEkgRecordingBundle
 Usage: #example
@@ -164,3 +165,4 @@ Usage: #example
 * identifier[SOR-ID].value = "61741000016007"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "Lægerne Hasseris Bymidte"
+*/

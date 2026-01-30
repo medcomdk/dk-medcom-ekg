@@ -1,8 +1,8 @@
 Invariant: medcom-datetime-has-time-offset-zulu
 // This invariant allows both zulu and offset time zones.
 //Winter time
-//"2025-11-27T13:34:56+01:00"
 //"2025-11-27T12:34:56.789Z"
+//"2025-11-27T13:34:56+01:00"
 //Summer time
 //"2025-06-27T14:34:56+02:00"
 //"2025-06-27T12:34:56.789Z"
