@@ -36,7 +36,7 @@ The technical specification for the standard is composed of profiles originating
 
 On the front page of this Implementation Guide, there is a description of the other relevant IGs on which the standard depends. In addition, a dependency tree can be viewed under the Dependencies tab, which is accessible via the More section of the Implementation Guide.
 
-[XDS metadata attributes for sharing MedCom’s standard: ECG Recording (DK: XDS-metadata attributter for deling af MedCom’s standard: EKG Recording): (docx)](assets/documents/XDS-metadata - Deling af EKG'er.pdf)
+XDS metadata attributes for sharing MedCom’s standard: ECG Recording (DK: XDS-metadata attributter for deling af MedCom’s standard: EKG Recording): [(XDS-metadata - Deling af EKG'er.pdf)](assets/documents/XDS-metadata - Deling af EKG'er.pdf)
 
 
 ## 2 Test and Certification
