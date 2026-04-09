@@ -28,7 +28,9 @@ Use cases describe the different scenarios a standard supports. For a certain re
 
 The user stories and use cases can be found here:
 
-*(Will be published when available)*
+  * [Use cases](assets/documents/UseCases_SharedEKG_eng v1.0.pdf).
+  
+*(User stories will be published when available)*
 
 ### 1.2 Technical specification
 
