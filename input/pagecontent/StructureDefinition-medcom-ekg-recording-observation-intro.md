@@ -13,7 +13,7 @@ This Observation includes a free-text note related to the EKG acquisition, inten
 #### Line breaks and special characters in the note
 Implementations must preserve the logical string value, including line breaks and Unicode characters, across both XML and JSON. Line breaks in FHIR string values must follow the underlying format:
 
-- In JSON, line breaks **SHALL** be written as the escaped newline sequence `\n` inside the string.
+- In JSON, line breaks **SHALL** be written as the escaped newline sequence `\n` inside the string. The special character `"` MUST be escaped with `\"` when used inside the note.
 - In XML, line breaks **SHALL** be represented either as a literal newline in the element text or as the character reference `&#xA;`. Escaping of characters in XML **SHALL** preserve the logical value of the FHIR string. XML-reserved characters `&`, `<`, `>`, and `"` **SHALL** be escaped.
 
 Unicode characters (e.g. ÆØÅ, ë, ð, ý) **SHALL** be supported without restriction in both XML and JSON.
