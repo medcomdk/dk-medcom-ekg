@@ -29,14 +29,14 @@ Description: "Observation profile intended to be used in MedCom's Ekg Recording 
 * note 0..1 MS
 * note.text MS
 * note.text ^maxLength = 1024
-* note ^short = "Free-text note, used to document relevant measurement-related remarks. Line breaks in FHIR string values must be represented as escaped newline characters \\n in JSON and either as a literal newline in the element text or as the character reference &#xA; in XML."
+* note ^short = "Free-text note, used to document relevant measurement-related remarks. Line breaks must be represented as escaped newline characters \\n in JSON and as the character reference &#xA; in XML."
 * performer ..1
 * performer only Reference(MedComDocumentOrganization)
 * extension[valueAttachment].url MS
 * extension[valueAttachment] 1..1 MS
 * extension[valueAttachment].valueAttachment 1..1 MS
 * extension[valueAttachment].valueAttachment.data 1..1 MS
-* extension[valueAttachment].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF/A document."
+* extension[valueAttachment].valueAttachment.data ^short = "Base64-encoded content of the EKG recording PDF document."
 * extension[valueAttachment].valueAttachment.contentType 1..1 MS
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf (exactly)
 * extension[valueAttachment].valueAttachment.contentType ^short = "MIME type of the attached EKG recording."
