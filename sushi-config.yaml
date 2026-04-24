@@ -3,7 +3,7 @@ canonical: http://medcomfhir.dk/ig/ekg
 name: DKMedComEKG
 title: DK MedCom EKG
 description: The DK MedCom IG for EKG
-status: active # draft | active | retired | unknown
+status: draft # draft | active | retired | unknown
 version: 2.0.0-trial-use
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
