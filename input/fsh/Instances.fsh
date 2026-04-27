@@ -43,7 +43,7 @@ Usage: #example
 * section[0].entry[0] = Reference(ef810168-ee8c-4f14-9012-6aff6c1d86e7)
 * date = "2026-01-14T10:15:00+01:00"
 * language = #da "Danish"
-* meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|1.0"
+* meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 //OBS: attester, event.code, event.detail bruges ikke i EKG - skriv det i profilteksten.
 
 
