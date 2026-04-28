@@ -4,7 +4,7 @@ name: DKMedComEKG
 title: DK MedCom EKG
 description: The DK MedCom IG for EKG
 status: draft # draft | active | retired | unknown
-version: 2.0.0-trial-use
+version: 2.0.0-trial-use-2026-04-28
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
