@@ -12,3 +12,4 @@ Therefore, **versions 1.0.0, 1.0.1 and 1.0.2 MUST NOT be used**.
 - The specification for **line breaks** has been updated; literal newlines in element text are no longer permitted.
 - Clarified requirements for **special characters** in the observation note.
 - Clarified that `attester`, `event.code`, and `event.detail` are optional XDS metadata elements, but is not used in this standard.
+- Updated dependency to **medcom.fhir.dk.document#2.0.2** to include dependency to the updated FormatCode.
