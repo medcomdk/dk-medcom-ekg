@@ -29,13 +29,13 @@ maps to the FHIR `Composition.meta.profile` `http://medcomfhir.dk/ig/ekg/Structu
 
 The `[major].[minor]` version components are versioned in lockstep.   Any change to either the major or minor version SHALL be reflected in both to maintain semantic alignment between the MedCom XDS Metadata and the FHIR representation.
 
-**Example (v1.0):**
+**Example (v2.0):**
 
 - **XDS `formatCode`:**  
-  `urn:ad:dk:medcom:ekg-v1.0:full`
+  `urn:ad:dk:medcom:ekg-v2.0:full`
 
 - **FHIR `Composition.meta.profile`:**  
-  `http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|1.0`
+  `http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0`
 
 
 #### Timestamps
@@ -47,3 +47,6 @@ If `Observation.effectivePeriod.start` is known, this **MUST** be inserted as `C
 If `Observation.effectivePeriod.start` is **NOT** known, `Observation.effectiveDateTime` **MUST** be inserted as `Composition.event.period.start` instead.
 
 If `Observation.effectivePeriod.end` is known, this **MUST** be inserted as `Composition.event.period.end`. If this is **NOT** known, this can be left empty, as it is optional.
+
+#### Unused XDS Metadata elements
+`attester`, `event.code`, and `event.detail` is optional XDS metadata elements, but is not used in this standard.
