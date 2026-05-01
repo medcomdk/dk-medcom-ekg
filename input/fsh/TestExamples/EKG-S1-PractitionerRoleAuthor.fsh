@@ -3,7 +3,7 @@
 Instance: 68b4f484-f47e-4ae5-a620-76802b60ee4e
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
-Description: "Bundle EKG-C1-T1"
+Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-24T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
@@ -23,7 +23,7 @@ Description: "Bundle EKG-C1-T1"
 
 Instance: 15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd
 InstanceOf: MedComEkgRecordingComposition
-Description: "Composition EKG-C1-T1"
+Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:3770b609-eb30-48b2-ab64-6712130cc5dd"
 * status = #final
@@ -43,7 +43,7 @@ Description: "Composition EKG-C1-T1"
 * section[0].entry[0] = Reference(19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0)
 * date = "2026-03-24T11:00:00+01:00"
 * language = #da "Danish"
-* meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|1.0"
+* meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
 
 Instance: 19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0

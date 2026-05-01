@@ -1,7 +1,7 @@
 Instance: a1d72798-f851-4907-a2f7-679ce5018011
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
-Description: "Bundle EKG-C1-T1"
+Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-24T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
@@ -17,7 +17,7 @@ Description: "Bundle EKG-C1-T1"
 
 Instance: c327cfb0-9c42-446e-b054-0223f0bb2718
 InstanceOf: MedComEkgRecordingComposition
-Description: "Composition EKG-C1-T1"
+Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:7b212d6d-1b95-4901-bd93-ead58279410e"
 * status = #final
@@ -36,13 +36,13 @@ Description: "Composition EKG-C1-T1"
 * section[0].entry[0] = Reference(5bce6446-8462-4694-b626-9839159a23f1)
 * date = "2026-03-24T11:05:00+01:00"
 * language = #da "Danish"
-* meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|1.0"
+* meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
 
 Instance: 5bce6446-8462-4694-b626-9839159a23f1
 InstanceOf: MedComEkgRecordingObservation
 Title: "Observation"
-Description: "Observation EKG-C1-T1"
+Description: "Observation"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:4ee5ebad-a700-47b2-ae17-43a5a67b2f4e"
 * status = $ObsStatusCodeSystem#final
