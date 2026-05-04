@@ -32,7 +32,7 @@ Description: "Composition"
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
 * event.period.start = "2026-03-24T11:00:00+01:00"
-* event.period.end = "2026-03-24T11:05:00+01:00"
+//* event.period.end = "2026-03-24T11:05:00+01:00"
 * section[0].entry[0] = Reference(5bce6446-8462-4694-b626-9839159a23f1)
 * date = "2026-03-24T11:05:00+01:00"
 * language = #da "Danish"
@@ -50,9 +50,9 @@ Description: "Observation"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
-//* effectiveDateTime = "2026-01-14T10:23:00+01:00"
-* effectivePeriod.start = "2026-03-24T11:00:00+01:00"
-* effectivePeriod.end = "2026-03-24T11:05:00+01:00"
+* effectiveDateTime = "2026-03-24T11:00:00+01:00"
+//** effectivePeriod.start = "2026-03-24T11:00:00+01:00"
+//** effectivePeriod.end = "2026-03-24T11:05:00+01:00"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 //* note.text = ""
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
