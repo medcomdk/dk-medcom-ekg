@@ -8,20 +8,20 @@ Description: "Bundle"
 * timestamp = 2026-03-24T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:7c65d036-3e11-4457-948b-e459351216ab"
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/Composition-15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd"
-* entry[=].resource = Composition-15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd 
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/Observation-19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0"
-* entry[=].resource = Observation-19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c"
-* entry[=].resource = Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/PractitionerRole/Sygeplejerske-Sidsel-613a8bdb-5f05-483c-bc9b-9bf8f4b12915"
-* entry[=].resource = Sygeplejerske-Sidsel-613a8bdb-5f05-483c-bc9b-9bf8f4b12915
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Practitioner/Sidsel-c78ad403-3cc2-477f-9861-7c76cafe7e8c"
-* entry[=].resource = Sidsel-c78ad403-3cc2-477f-9861-7c76cafe7e8c
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf"
-* entry[=].resource = Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd"
+* entry[=].resource = 15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd 
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0"
+* entry[=].resource = 19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/f98285ec-c3bc-4283-a840-0e276cd4bb1c"
+* entry[=].resource = f98285ec-c3bc-4283-a840-0e276cd4bb1c
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/PractitionerRole/613a8bdb-5f05-483c-bc9b-9bf8f4b12915"
+* entry[=].resource = 613a8bdb-5f05-483c-bc9b-9bf8f4b12915
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Practitioner/c78ad403-3cc2-477f-9861-7c76cafe7e8c"
+* entry[=].resource = c78ad403-3cc2-477f-9861-7c76cafe7e8c
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/44638fdf-4fd2-4e38-83cb-00b92403ffaf"
+* entry[=].resource = 44638fdf-4fd2-4e38-83cb-00b92403ffaf
 
-Instance: Composition-15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd
+Instance: 15a48f2a-6313-4ca8-b6a9-aa9b91c8d7fd
 InstanceOf: MedComEkgRecordingComposition
 Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -33,20 +33,20 @@ Description: "Composition"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
-* subject = Reference(Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c)
-* author[institution] = Reference(Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf)
-* author[+] = Reference(Sygeplejerske-Sidsel-613a8bdb-5f05-483c-bc9b-9bf8f4b12915)
+* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* author[institution] = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* author[+] = Reference(613a8bdb-5f05-483c-bc9b-9bf8f4b12915)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
 * event.period.start = "2026-03-24T11:00:00+01:00"
 //* event.period.end = "2026-03-24T11:05:00+01:00"
-* section[0].entry[0] = Reference(Observation-19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0)
+* section[0].entry[0] = Reference(19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0)
 * date = "2026-03-24T11:00:00+01:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
 
-Instance: Observation-19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0
+Instance: 19ccbad9-08a6-4c58-a4c9-b52fbc07d7f0
 InstanceOf: MedComEkgRecordingObservation
 Title: "Observation"
 Description: "Observation EKG-C1-T1"
@@ -56,11 +56,11 @@ Description: "Observation EKG-C1-T1"
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
-* subject = Reference(Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
 //* effectiveDateTime = "2026-01-14T10:23:00+01:00"
 * effectivePeriod.start = "2026-03-24T11:00:00+01:00"
 //* effectivePeriod.end = "2026-03-24T11:05:00+01:00"
-* performer = Reference(Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * note.text = "Hjertet sidder i højre side."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf

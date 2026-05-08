@@ -1,5 +1,5 @@
 //Patient
-Instance: Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c
+Instance: f98285ec-c3bc-4283-a840-0e276cd4bb1c
 InstanceOf: MedComDocumentPatient
 Title: "Patient"
 Description: "Instance of a patient"
@@ -13,18 +13,18 @@ Description: "Instance of a patient"
 * gender = #female
 
 //PractitionerRole
-Instance: Sygeplejerske-Sidsel-613a8bdb-5f05-483c-bc9b-9bf8f4b12915
+Instance: 613a8bdb-5f05-483c-bc9b-9bf8f4b12915
 InstanceOf: MedComDocumentPractitionerRole
 Title: "PractitionerRole"
 Description: "PractitionerRole with a role and reference to a practitioner and an organization"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:caaa160c-1a20-4b86-a65d-3ded47f51840"
-* organization = Reference(Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf)
-* practitioner = Reference(Sidsel-c78ad403-3cc2-477f-9861-7c76cafe7e8c)
+* organization = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* practitioner = Reference(c78ad403-3cc2-477f-9861-7c76cafe7e8c)
 * code = $PractitionerRole#sygeplejerske
 
 //Practitioner
-Instance: Sidsel-c78ad403-3cc2-477f-9861-7c76cafe7e8c
+Instance: c78ad403-3cc2-477f-9861-7c76cafe7e8c
 InstanceOf: MedComDocumentPractitioner
 Title: "Practitioner"
 Description: "Instance of a practitioner"
@@ -35,7 +35,7 @@ Description: "Instance of a practitioner"
 * name.family = "Andersen"
 
 //Organization
-Instance: Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf
+Instance: 44638fdf-4fd2-4e38-83cb-00b92403ffaf
 InstanceOf: MedComDocumentOrganization
 Title: "Organization"
 Description: "Instance of an author organization"

@@ -6,16 +6,16 @@ Description: "Bundle"
 * timestamp = 2026-03-24T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1e5fdf1b-4318-4dcb-ba1c-dbd973c0b66b"
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/Composition-c327cfb0-9c42-446e-b054-0223f0bb2718"
-* entry[=].resource = Composition-c327cfb0-9c42-446e-b054-0223f0bb2718 
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/Observation-5bce6446-8462-4694-b626-9839159a23f1"
-* entry[=].resource = Observation-5bce6446-8462-4694-b626-9839159a23f1
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c"
-* entry[=].resource = Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf"
-* entry[=].resource = Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/c327cfb0-9c42-446e-b054-0223f0bb2718"
+* entry[=].resource = c327cfb0-9c42-446e-b054-0223f0bb2718 
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/5bce6446-8462-4694-b626-9839159a23f1"
+* entry[=].resource = 5bce6446-8462-4694-b626-9839159a23f1
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/f98285ec-c3bc-4283-a840-0e276cd4bb1c"
+* entry[=].resource = f98285ec-c3bc-4283-a840-0e276cd4bb1c
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/44638fdf-4fd2-4e38-83cb-00b92403ffaf"
+* entry[=].resource = 44638fdf-4fd2-4e38-83cb-00b92403ffaf
 
-Instance: Composition-c327cfb0-9c42-446e-b054-0223f0bb2718
+Instance: c327cfb0-9c42-446e-b054-0223f0bb2718
 InstanceOf: MedComEkgRecordingComposition
 Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -27,19 +27,19 @@ Description: "Composition"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
-* subject = Reference(Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c)
-* author[institution] = Reference(Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* author[institution] = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
 * event.period.start = "2026-03-24T11:00:00+01:00"
 //* event.period.end = "2026-03-24T11:05:00+01:00"
-* section[0].entry[0] = Reference(Observation-5bce6446-8462-4694-b626-9839159a23f1)
+* section[0].entry[0] = Reference(5bce6446-8462-4694-b626-9839159a23f1)
 * date = "2026-03-24T11:05:00+01:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
 
-Instance: Observation-5bce6446-8462-4694-b626-9839159a23f1
+Instance: 5bce6446-8462-4694-b626-9839159a23f1
 InstanceOf: MedComEkgRecordingObservation
 Title: "Observation"
 Description: "Observation"
@@ -49,11 +49,11 @@ Description: "Observation"
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
-* subject = Reference(Mia-f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
 * effectiveDateTime = "2026-03-24T11:00:00+01:00"
 //** effectivePeriod.start = "2026-03-24T11:00:00+01:00"
 //** effectivePeriod.end = "2026-03-24T11:05:00+01:00"
-* performer = Reference(Hasseris-44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 //* note.text = ""
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf
