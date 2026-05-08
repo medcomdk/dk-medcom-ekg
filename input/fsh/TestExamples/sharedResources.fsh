@@ -42,3 +42,17 @@ Description: "Instance of an author organization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "61741000016007"
 * name = "Lægerne Hasseris Bymidte"
+
+//Patient with name and address protection
+Instance: 70e06ce3-6197-4377-82a2-4892cc9aef38
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "0605009514"
+* birthDate = "2000-05-06"
+* name[official].family = "ADRESSEBESKYTTET"
+* name[official].given[0] = "ADRESSEBESKYTTET"
+* name[official].given[+] = "ADRESSEBESKYTTET"
+* name[official].use = #official
+* gender = #female
