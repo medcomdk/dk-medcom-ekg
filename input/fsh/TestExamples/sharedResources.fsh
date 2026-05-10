@@ -56,3 +56,12 @@ Description: "Instance of a patient"
 * name[official].given[+] = "ADRESSEBESKYTTET"
 * name[official].use = #official
 * gender = #female
+
+//Organization with no name (SLB Hjertesygdomme ambulatorium (Kolding))
+Instance: 7802dceb-5199-4b12-adac-240225948867
+InstanceOf: MedComDocumentOrganization
+Title: "Organization"
+Description: "Instance of an author organization"
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
+* identifier[SOR-ID].value = "913231000016003"
+* name = ""

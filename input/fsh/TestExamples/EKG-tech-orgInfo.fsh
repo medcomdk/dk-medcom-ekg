@@ -1,21 +1,21 @@
-Instance: 0fa2b308-4ff7-4688-9f82-bdcbc025166c
+Instance: a006267d-af83-4ad1-a024-f9c1331ae396
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-03-25T11:06:43+01:00
+* timestamp = 2026-03-24T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1e5fdf1b-4318-4dcb-ba1c-dbd973c0b66b"
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/0220d454-4cc2-4779-a773-73af94214286"
-* entry[=].resource = 0220d454-4cc2-4779-a773-73af94214286 
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/3ddb5a7e-4e31-4d12-b445-021a627c86a4"
-* entry[=].resource = 3ddb5a7e-4e31-4d12-b445-021a627c86a4
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/70e06ce3-6197-4377-82a2-4892cc9aef38"
-* entry[=].resource = 70e06ce3-6197-4377-82a2-4892cc9aef38
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/44638fdf-4fd2-4e38-83cb-00b92403ffaf"
-* entry[=].resource = 44638fdf-4fd2-4e38-83cb-00b92403ffaf
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/d5e09f8b-0859-4db3-a3d2-6ba31488e99d"
+* entry[=].resource = d5e09f8b-0859-4db3-a3d2-6ba31488e99d 
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/915a9ab7-75d1-468a-b4bb-90a926bee9e2"
+* entry[=].resource = 915a9ab7-75d1-468a-b4bb-90a926bee9e2
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/f98285ec-c3bc-4283-a840-0e276cd4bb1c"
+* entry[=].resource = f98285ec-c3bc-4283-a840-0e276cd4bb1c
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/7802dceb-5199-4b12-adac-240225948867"
+* entry[=].resource = 7802dceb-5199-4b12-adac-240225948867
 
-Instance: 0220d454-4cc2-4779-a773-73af94214286
+Instance: d5e09f8b-0859-4db3-a3d2-6ba31488e99d
 InstanceOf: MedComEkgRecordingComposition
 Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -27,19 +27,18 @@ Description: "Composition"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
-* subject = Reference(70e06ce3-6197-4377-82a2-4892cc9aef38)
-* author[institution] = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* author[institution] = Reference(7802dceb-5199-4b12-adac-240225948867)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-03-25T11:00:00+01:00"
-* event.period.end = "2026-03-25T11:05:00+01:00"
-* section[0].entry[0] = Reference(3ddb5a7e-4e31-4d12-b445-021a627c86a4)
-* date = "2026-03-25T11:05:00+01:00"
+* event.period.start = "2026-03-24T11:00:00+01:00"
+* section[0].entry[0] = Reference(915a9ab7-75d1-468a-b4bb-90a926bee9e2)
+* date = "2026-03-24T11:05:00+01:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
 
-Instance: 3ddb5a7e-4e31-4d12-b445-021a627c86a4
+Instance: 915a9ab7-75d1-468a-b4bb-90a926bee9e2
 InstanceOf: MedComEkgRecordingObservation
 Title: "Observation"
 Description: "Observation"
@@ -49,11 +48,9 @@ Description: "Observation"
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
-* subject = Reference(70e06ce3-6197-4377-82a2-4892cc9aef38)
-* effectivePeriod.start = "2026-03-25T11:00:00+01:00"
-* effectivePeriod.end = "2026-03-25T11:05:00+01:00"
-* performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
-* note.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula eros, pulvinar at convallis ut, finibus eu tortor. Nam interdum augue urna, ut dignissim nisl consectetur eu. Donec sit amet nisi turpis. Donec vel tellus eget orci eleifend tempor et vitae urna. Aenean facilisis, mauris vitae sodales vestibulum, libero diam scelerisque libero, at venenatis justo est eget massa. Sed sed auctor nunc. Aenean consequat, orci nec venenatis vestibulum, nibh leo fermentum ligula, quis ornare massa augue et ante. Maecenas elementum ligula eget cursus aliquam. Morbi ullamcorper fermentum enim, vitae luctus felis pellentesque nec. Pron dignissim velit leo, eu mattis ex pretium a. Vivamus id vestibulum quam. Sed vitae iaculis turpis, vel interdum tortor. Curabitur fringilla nulla sed sodales sollicitudin. Proin eget nunc ut metus maximus semper sit amet vitae augue. Curabitur tempor, nisl non euismod scelerisque, diam dolor congue mauris, in consectetur nunc sapien sagittis felis. Duis id elit at justo tincidunt ligula."
+* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* effectiveDateTime = "2026-03-24T11:00:00+01:00"
+* performer = Reference(7802dceb-5199-4b12-adac-240225948867)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf
 * extension[valueAttachment].valueAttachment.title = "Elektrokardiogram-12-aflednings"
