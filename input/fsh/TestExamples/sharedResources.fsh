@@ -65,3 +65,32 @@ Description: "Instance of an author organization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "913231000016003"
 * name = ""
+
+//Patient with alternative id + additional elements
+Instance: dk.patient-12345
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "0305004030"
+* birthDate = "2000-05-03"
+* name[official].use = #official
+* gender = #female
+* telecom[0].system = #phone
+* telecom[0].value = "12345678"
+* telecom[0].use = #mobile
+* telecom[0].rank = 1
+* name[official].given[0] = "Mia"
+* name[official].given[+] = "Med"
+* name[official].family = "EKG"
+
+//PractitionerRole with text role
+Instance: ab05bfa2-2031-41ab-bc35-d278f1ea8786
+InstanceOf: MedComDocumentPractitionerRole
+Title: "PractitionerRole"
+Description: "PractitionerRole with a role and reference to a practitioner and an organization"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:ddcb54c1-6bcb-4d43-99ed-53d76b057a1e"
+* organization = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
+* practitioner = Reference(c78ad403-3cc2-477f-9861-7c76cafe7e8c)
+* code.text = "Hjertelæge"
