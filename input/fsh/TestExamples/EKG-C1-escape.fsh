@@ -58,9 +58,7 @@ Description: "Observation EKG-C1-T1"
 * effectivePeriod.start = "2026-03-24T12:13:14+01:00"
 * effectivePeriod.end = "2026-03-24T11:15:16Z"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
-* note.text = "Et 'elsempel' der "/ikke"/ giver mening i &gt; 5 sekunder og &lt; 10 timer &amp; færdig."
-
-Þór og Guðrún sögðu að Ðór þakkaði þjóðinni. Ich kann auf Deutsch schreiben, und ich benutze auch das \"ß\" (lowerCase) and \"ẞ\" (upperCase)."
+* note.text = "Et 'elsempel' der \"ikke\" giver mening i &gt; 5 sekunder og &lt; 10 timer &amp; færdig."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf
 * extension[valueAttachment].valueAttachment.title = "Elektrokardiogram-12-aflednings"
