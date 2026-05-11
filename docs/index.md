@@ -54,3 +54,6 @@ Certification of a system implies both an approved test protocol and a run-throu
 **Receiving an EKG Recording document**
   * Test protocol *(Will be published when available)*
 <p>&nbsp;</p>
+
+## 3 Vendor chat-forum
+Vendors developing system using this standard can use this [EKG Zulip FHIR chat forum](https://chat.fhir.org/#narrow/channel/593837-denmark.2Fmedcom.2Fprofile.2FEKG/topic/channel.20events/with/591084298) to ask quetions and help each other. 
