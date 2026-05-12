@@ -53,7 +53,7 @@ Description: "Observation"
 * effectivePeriod.start = "2026-03-25T11:00:00+01:00"
 * effectivePeriod.end = "2026-03-25T11:05:00+01:00"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
-* note.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula eros, pulvinar at convallis ut, finibus eu tortor. Nam interdum augue urna, ut dignissim nisl consectetur eu. Donec sit amet nisi turpis. Donec vel tellus eget orci eleifend tempor et vitae urna. Aenean facilisis, mauris vitae sodales vestibulum, libero diam scelerisque libero, at venenatis justo est eget massa. Sed sed auctor nunc. Aenean consequat, orci nec venenatis vestibulum, nibh leo fermentum ligula, quis ornare massa augue et ante. Maecenas elementum ligula eget cursus aliquam. Morbi ullamcorper fermentum enim, vitae luctus felis pellentesque nec. Pron dignissim velit leo, eu mattis ex pretium a. Vivamus id vestibulum quam. Sed vitae iaculis turpis, vel interdum tortor. Curabitur fringilla nulla sed sodales sollicitudin. Proin eget nunc ut metus maximus semper sit amet vitae augue. Curabitur tempor, nisl non euismod scelerisque, diam dolor congue mauris, in consectetur nunc sapien sagittis felis. Duis id elit at justo tincidunt ligula."
+* note.text = "Patienten lå uroligt."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf
 * extension[valueAttachment].valueAttachment.title = "Elektrokardiogram-12-aflednings"
