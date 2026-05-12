@@ -1,4 +1,4 @@
-Instance: b02e3dc4-7ede-4211-8354-d6bd8236cdbd
+Instance: 02be3dc4-7ede-4211-8354-d6bd8236cdbd
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
@@ -58,7 +58,7 @@ Description: "Observation EKG-C1-T1"
 * effectivePeriod.start = "2026-03-24T12:13:14+01:00"
 * effectivePeriod.end = "2026-03-24T11:15:16Z"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
-* note.text = "Et 'elsempel' der \"ikke\" giver mening i &gt; 5 sekunder og &lt; 10 timer &amp; færdig."
+* note.text = "Et 'eksempel' der \"ikke\" giver mening i > 5 sekunder og < 10 timer & færdig."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf
 * extension[valueAttachment].valueAttachment.title = "Elektrokardiogram-12-aflednings"

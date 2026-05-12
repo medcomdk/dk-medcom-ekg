@@ -1,5 +1,5 @@
 //This example must have the Practitioner resource removed to make it invalid.
-Instance: 620a6096-de96-425a-98d3-b8695bc00862
+Instance: 120a6096-de96-425a-98d3-b8695bc00862
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"

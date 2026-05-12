@@ -1,5 +1,5 @@
 //This example contains two patients and each is references from each resource.
-Instance: e6cd837e-9d7d-47d9-8222-71d66d865860
+Instance: 11cd837e-9d7d-47d9-8222-71d66d865860
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"

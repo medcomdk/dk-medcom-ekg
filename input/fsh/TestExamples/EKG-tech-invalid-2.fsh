@@ -1,5 +1,5 @@
 //This example must have the composition and observation resources switched in the Bundle instance to make it invalid.
-Instance: 1513e62e-bd06-4e11-9dc6-96fcbc79ee28
+Instance: 1013e62e-bd06-4e11-9dc6-96fcbc79ee28
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
