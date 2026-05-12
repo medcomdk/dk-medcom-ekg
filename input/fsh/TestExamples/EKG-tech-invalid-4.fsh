@@ -26,7 +26,7 @@ Instance: 5d05785f-9f76-49d3-8766-827e42af0139
 InstanceOf: MedComEkgRecordingComposition
 Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:3770b609-eb30-48b2-ab64-6712130cc5dd"
+* identifier.value = "urn:uuid:3b2efb90-bb28-452d-b975-a65ae2e29bbe"
 * status = #final
 * type.coding.system = $LoincOID
 * type.coding.code = #11524-6

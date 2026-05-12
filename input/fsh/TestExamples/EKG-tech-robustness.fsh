@@ -23,7 +23,7 @@ Instance: fXO1RCx7inuWRy90QcRloPDBHs7x-.hjDSAQ3UoBv244
 InstanceOf: MedComEkgRecordingComposition
 Description: "Composition"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:3770b609-eb30-48b2-ab64-6712130cc5dd"
+* identifier.value = "urn:uuid:e555df6b-056d-415d-b274-3f289108b0db"
 * status = #final
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
