@@ -49,7 +49,7 @@ InstanceOf: MedComEkgRecordingObservation
 Title: "Observation"
 Description: "Observation EKG-C1-T1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:7fda3889-13be-4fb8-b5f7-ad2367478b85"
+* identifier.value = "urn:uuid:d71a29a7-e33d-40b6-85a0-860355ecc1ee"
 * status = $ObsStatusCodeSystem#final
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * code.coding[LOINC].system = "http://loinc.org"
