@@ -6,7 +6,7 @@ Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-24T12:16:18+01:00
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:7c65d036-3e11-4457-948b-e459351216ab"
+* identifier.value = "urn:uuid:7904eae5-2b9e-4fa3-bc33-33f11ab40262"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/1263067d-7e63-4da8-b423-479e2c1abf68"
 * entry[=].resource = 1263067d-7e63-4da8-b423-479e2c1abf68 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/59915ade-1e98-4db8-abb3-8e3e044881f5"
