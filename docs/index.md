@@ -56,4 +56,4 @@ Certification of a system implies both an approved test protocol and a run-throu
 <p>&nbsp;</p>
 
 ## 3 Vendor chat-forum
-Vendors developing system using this standard can use this [EKG Zulip FHIR chat forum](https://chat.fhir.org/#narrow/channel/593837-denmark.2Fmedcom.2Fprofile.2FEKG/topic/channel.20events/with/591084298) to ask quetions and help each other. 
+Vendors using the Shared EKG Recording standard can use this [EKG Zulip FHIR chat forum](https://chat.fhir.org/#narrow/channel/593837-denmark.2Fmedcom.2Fprofile.2FEKG/topic/channel.20events/with/591084298) to ask questions and help each other. 
