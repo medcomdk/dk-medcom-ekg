@@ -57,6 +57,20 @@ Description: "Instance of a patient"
 * name[official].use = #official
 * gender = #female
 
+//Patient with ENHANCED name and address protection
+Instance: c48dec51-a234-482f-86b6-271305272b0b
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "0805919396"
+* birthDate = "1991-05-08"
+* name[official].family = "ADRESSEBESKYTTET"
+* name[official].given[0] = "ADRESSEBESKYTTET"
+* name[official].given[+] = "ADRESSEBESKYTTET"
+* name[official].use = #official
+* gender = #female
+
 //Organization with no name (SLB Hjertesygdomme ambulatorium (Kolding))
 Instance: 7802dceb-5199-4b12-adac-240225948867
 InstanceOf: MedComDocumentOrganization

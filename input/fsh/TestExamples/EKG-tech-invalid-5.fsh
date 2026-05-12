@@ -1,3 +1,4 @@
+//This example includes no information in the organisation name, which is a required element.
 Instance: 1706267d-af83-4ad1-a024-f9c1331ae396
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
