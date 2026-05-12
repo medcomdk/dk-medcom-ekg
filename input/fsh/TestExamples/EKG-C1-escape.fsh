@@ -1,3 +1,4 @@
+//OBS: remember to edit apostoph in output file
 Instance: 02be3dc4-7ede-4211-8354-d6bd8236cdbd
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
