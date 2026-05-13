@@ -11,8 +11,8 @@ Description: "Bundle"
 * entry[=].resource = d5e09f8b-0859-4db3-a3d2-6ba31488e99d 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/915a9ab7-75d1-468a-b4bb-90a926bee9e2"
 * entry[=].resource = 915a9ab7-75d1-468a-b4bb-90a926bee9e2
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/f98285ec-c3bc-4283-a840-0e276cd4bb1c"
-* entry[=].resource = f98285ec-c3bc-4283-a840-0e276cd4bb1c
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/3a570d0e-9210-48e1-8f52-9ea24fb492ed"
+* entry[=].resource = 3a570d0e-9210-48e1-8f52-9ea24fb492ed
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Organization/7802dceb-5199-4b12-adac-240225948867"
 * entry[=].resource = 7802dceb-5199-4b12-adac-240225948867
 
@@ -28,7 +28,7 @@ Description: "Composition"
 * category.coding.system = $ClassCodeCS
 * category.coding.code = #001
 * category.coding.display = "Klinisk rapport"
-* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* subject = Reference(3a570d0e-9210-48e1-8f52-9ea24fb492ed)
 * author[institution] = Reference(7802dceb-5199-4b12-adac-240225948867)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
@@ -49,7 +49,7 @@ Description: "Observation"
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
-* subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
+* subject = Reference(3a570d0e-9210-48e1-8f52-9ea24fb492ed)
 * effectiveDateTime = "2026-03-24T11:00:00+01:00"
 * performer = Reference(7802dceb-5199-4b12-adac-240225948867)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
