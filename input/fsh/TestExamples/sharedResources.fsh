@@ -108,3 +108,115 @@ Description: "PractitionerRole with a role and reference to a practitioner and a
 * organization = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * practitioner = Reference(c78ad403-3cc2-477f-9861-7c76cafe7e8c)
 * code.text = "Hjertelæge"
+
+//Test patients for invalid files:
+
+Instance: ccc3f30d-c5e2-4329-b2ec-6b6f233244b2
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "1605703859"
+* birthDate = "1970-05-16"
+* name[official].family = "Ærøholm "
+* name[official].given[0] = "Jørn"
+* name[official].use = #official
+* gender = #male
+
+Instance: a2c366dd-90db-441a-bbfd-d0bb61041352
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "1305044098"
+* birthDate = "2004-05-13"
+* name[official].family = "Nørgård"
+* name[official].given[0] = "Maja"
+* name[official].use = #official
+* gender = #female
+
+Instance: 8655b003-7021-4378-9d2e-450c148d3401
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "1507543908"
+* birthDate = "1954-07-15"
+* name[official].family = "Vestergaard"
+* name[official].given[0] = "Inga"
+* name[official].use = #official
+* gender = #female
+
+Instance: 9f292792-4622-46aa-b30b-6db6d120a262
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "0108860774"
+* birthDate = "1986-08-01"
+* name[official].family = "Østerby"
+* name[official].given[0] = "Lærke"
+* name[official].use = #official
+* gender = #female
+
+Instance: 7e1b4d90-6f46-41fb-95d1-ededb3c807d2
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "2809900544"
+* birthDate = "1990-09-28"
+* name[official].family = "Guðmundsdóttir"
+* name[official].given[0] = "Þórunn"
+* name[official].use = #official
+* gender = #female
+
+Instance: 3a570d0e-9210-48e1-8f52-9ea24fb492ed
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "2105704081"
+* birthDate = "1970-05-21"
+* name[official].family = "Agerbo"
+* name[official].given[0] = "Thorkild"
+* name[official].use = #official
+* gender = #male
+
+Instance: 326ef192-ef30-4c5c-a838-637377b3fdf5
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "0705008590"
+* birthDate = "2000-05-07"
+* name[official].family = "Myrup"
+* name[official].given[0] = "Sigrid"
+* name[official].use = #official
+* gender = #female
+
+Instance: ff9789de-7711-4ead-8dea-73d39bc71a8b
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "0605614345"
+* birthDate = "1961-05-06"
+* name[official].family = "Mikkelsen"
+* name[official].given[0] = "Halfdan"
+* name[official].use = #official
+* gender = #male
+
+Instance: b2a8f340-18d8-4f88-bad7-94fc95993297
+InstanceOf: MedComDocumentPatient
+Title: "Patient"
+Description: "Instance of a patient"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "1005824814"
+* birthDate = "1982-05-10"
+* name[official].family = "Falkenberg"
+* name[official].given[0] = "Yrsa"
+* name[official].given[+] = "Eline"
+* name[official].given[+] = "Solveig"
+* name[official].use = #official
+* gender = #female
