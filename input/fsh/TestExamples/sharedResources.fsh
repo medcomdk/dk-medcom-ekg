@@ -78,7 +78,7 @@ Title: "Organization"
 Description: "Instance of an author organization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "913231000016003"
-* name = ""
+* name = "-"
 
 //Patient with alternative id + additional elements
 Instance: dk.patient-12345
