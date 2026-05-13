@@ -1,5 +1,5 @@
 //This example must have the date rearranged in the Bundle.timestamp to make an invalid date.
-Instance: 09c26581-0311-40d6-bd75-b8c2054a3453
+Instance: 12c26581-0311-40d6-bd75-b8c2054a3453
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
