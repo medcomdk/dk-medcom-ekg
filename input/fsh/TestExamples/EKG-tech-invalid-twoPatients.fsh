@@ -1,12 +1,12 @@
 //This example contains two patients and each is references from each resource.
-Instance: 18cd837e-9d7d-47d9-8222-71d66d865860
+Instance: e18a837e-9d7d-47d9-8222-71d66d865860 //e18a = e: eksempel // 18: #18 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-24T12:16:18+01:00
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:7904eae5-2b9e-4fa3-bc33-33f11ab40262"
+* identifier.value = "urn:uuid:e18aeae5-2b9e-4fa3-bc33-33f11ab40262" //e18a = e: eksempel // 18: #18 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/1263067d-7e63-4da8-b423-479e2c1abf68"
 * entry[=].resource = 1263067d-7e63-4da8-b423-479e2c1abf68 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/59915ade-1e98-4db8-abb3-8e3e044881f5"

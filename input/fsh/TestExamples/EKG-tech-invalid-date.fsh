@@ -1,12 +1,12 @@
 //This example must have the date rearranged in the Bundle.timestamp to make an invalid date.
-Instance: 12c26581-0311-40d6-bd75-b8c2054a3453
+Instance: e12a6581-0311-40d6-bd75-b8c2054a3453 //e12a = e: eksempel // 12: #12 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-24T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:dfde2e6a-e58a-479d-b67e-6d703f21b710"
+* identifier.value = "urn:uuid:e12a2e6a-e58a-479d-b67e-6d703f21b710" //e12a = e: eksempel // 12: #12 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/d2a00e8d-24c7-4d9f-b312-3c4f313d7d70"
 * entry[=].resource = d2a00e8d-24c7-4d9f-b312-3c4f313d7d70 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/e4f1a32e-4bf9-4bdd-85fa-52c0f01dcee2"

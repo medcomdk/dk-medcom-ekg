@@ -1,12 +1,12 @@
 //This example must have the composition and observation resources switched in the Bundle instance to make it invalid.
-Instance: 1113e62e-bd06-4e11-9dc6-96fcbc79ee28
+Instance: e11ae62e-bd06-4e11-9dc6-96fcbc79ee28 //e11a = e: eksempel // 11: #11 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-24T12:16:18+01:00
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:d0845537-bfcf-4e39-a839-b58f7c0e1015"
+* identifier.value = "urn:uuid:e11a5537-bfcf-4e39-a839-b58f7c0e1015" //e11a = e: eksempel // 11: #11 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/8ae07d08-77ff-44a8-85e8-7cdf0f531038"
 * entry[=].resource = 8ae07d08-77ff-44a8-85e8-7cdf0f531038 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/d315abed-e0f0-4228-801e-f0a07ad39660"

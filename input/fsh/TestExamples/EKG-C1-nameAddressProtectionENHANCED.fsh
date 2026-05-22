@@ -1,11 +1,11 @@
-Instance: 0685701d-0776-460c-89d8-642fa84bdb18
+Instance: e06a701d-0776-460c-89d8-642fa84bdb18 //e06a = e: eksempel // 06: #06 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
 * timestamp = 2026-03-25T11:06:43+01:00
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:e760d23e-fc26-4cdd-8212-5edaa4b19883"
+* identifier.value = "urn:uuid:e06ad23e-fc26-4cdd-8212-5edaa4b19883" //e06a = e: eksempel // 06: #06 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/966435c2-29e6-4cd6-84ac-ccf9784d2621"
 * entry[=].resource = 966435c2-29e6-4cd6-84ac-ccf9784d2621 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/46d602dd-5634-4b67-a58e-cfd85efead90"
