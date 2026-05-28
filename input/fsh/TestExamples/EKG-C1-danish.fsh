@@ -3,7 +3,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-05-10T09:35:43+02:00
+* timestamp = 2026-05-01T09:35:43+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e01a6fec-96ab-4719-9353-28253d55c39d" //e01a = e: eksempel // 01: #01 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/3a42b065-cbb2-4086-95c5-aa7a560dc233"
@@ -36,10 +36,10 @@ Description: "Composition"
 * author[+] = Reference(613a8bdb-5f05-483c-bc9b-9bf8f4b12915)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-05-01T09:20:14+02:00"
+* event.period.start = "2026-05-01T09:19:14+02:00"
 * event.period.end = "2026-05-01T07:21:32Z"
 * section[0].entry[0] = Reference(200331d0-fb2a-4bee-bd0d-30a45ffdc3cc)
-* date = "2026-03-24T12:13:14+01:00"
+* date = "2026-05-01T09:35:43+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
@@ -55,7 +55,7 @@ Description: "Observation EKG-C1-T1"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
-* effectivePeriod.start = "2026-05-01T09:20:14+02:00"
+* effectivePeriod.start = "2026-05-01T09:19:14+02:00"
 * effectivePeriod.end = "2026-05-01T07:21:32Z"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * note.text = "En æstetisk flot, øde å. Ærgerligt at Østrig ikke ligger tættere på Århus."

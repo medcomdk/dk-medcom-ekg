@@ -3,7 +3,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-03-25T11:06:43+01:00
+* timestamp = 2026-05-19T19:19:+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e19a2862-dcfe-4160-8316-a09acf484101" //e19a = e: eksempel // 19: #19 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/d8fb1989-2100-43ce-b66d-50b0e3b134a3"
@@ -31,10 +31,10 @@ Description: "Composition"
 * author[institution] = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-03-25T11:00:00+01:00"
-* event.period.end = "2026-03-25T11:05:00+01:00"
+* event.period.start = "2026-05-19T09:19:19+02:00"
+* event.period.end = "2026-05-19T10:19:19+02:00"
 * section[0].entry[0] = Reference(ccb9a6c8-0c19-4580-b0a3-90d500040041)
-* date = "2026-03-25T11:05:00+01:00"
+* date = "2026-05-19T19:19:19+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
@@ -50,8 +50,8 @@ Description: "Observation"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(b2a8f340-18d8-4f88-bad7-94fc95993297)
-* effectivePeriod.start = "2026-03-25T11:00:00+01:00"
-* effectivePeriod.end = "2026-03-25T11:05:00+01:00"
+* effectivePeriod.start = "2026-05-19T09:19:19+02:00"
+* effectivePeriod.end = "2026-05-19T10:19:19+02:00"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * note.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis elit non urna accumsan finibus at pretium urna. Donec tincidunt urna et blandit vestibulum. Donec molestie placerat blandit. Suspendisse eget volutpat urna, eu sagittis enim. Cras et eleifend sem. Praesent a neque elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque vel rhoncus ligula. Praesent tempor mi ac vestibulum efficitur. Maecenas ut lorem sit amet sapien gravida hendrerit a ut velit. Vivamus in ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nibh ante, laoreet tincidunt posuere id, commodo sit amet eros. Proin nunc dui, sollicitudin ut posuere vel, iaculis id eros. Vestibulum vestibulum eget ligula vel facilisis. Quisque at tellus fermentum, gravida augue a, aliquam quam. Phasellus placerat sollicitudin lorem, a faucibus purus imperdiet non. Morbi in laoreet nibh. Proin massa enim, aliquet id neque nec, porta sodales lacus. Donec facilisis erat nunc, sed tincidunt mauris laoreet eget. Praesent ac viverra odio. Nunc nisi dui, rhoncus eget pretium non, euismod eu libero. Cras bibendum urna sit amet mauris fermentum varius. In hac habitasse platea dictumst. Nulla magna turpis, venenatis nec varius ut, rutrum sit amet urna. Ut egestas dolor et hendrerit finibus. Integer commodo libero in nisl lobortis iaculis. Vivamus fermentum vel tortor pretium faucibus. Duis urna dolor, fermentum eget fringilla elementum, porttitor at arcu. Integer egestas mi est, ac egestas magna imperdiet sed. Vestibulum in metus tincidunt, dignissim nisi non, posuere mauris. Praesent vulputate tempor ante, non interdum lacus ullamcorper nec. Praesent velit leo, finibus eu mi vitae, pharetra cursus ligula. Mauris in luctus velit. Pellentesque suscipit dui non justo pulvinar tristique. Praesent at dolor vel nibh tristique porta. Aliquam nec mollis eros. Nunc tellus ex, fermentum vitae congue vel, dapibus sed purus. Nunc quis tortor convallis est duis."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment

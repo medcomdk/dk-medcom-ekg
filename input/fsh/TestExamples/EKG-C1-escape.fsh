@@ -4,7 +4,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-05-01T10:30:18+02:00
+* timestamp = 2026-05-02T10:30:18+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e02a97e3-f3c2-469d-88d3-30d2bc72c25b" //e02a = e: eksempel // 02: #02 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/808a174c-4911-440e-9dc2-defacbbc26fe"
@@ -37,10 +37,10 @@ Description: "Composition"
 * author[+] = Reference(613a8bdb-5f05-483c-bc9b-9bf8f4b12915)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-05-01T10:20:14+02:00"
-* event.period.end = "2026-05-01T08:21:32Z"
+* event.period.start = "2026-05-02T09:20:14+02:00"
+* event.period.end = "2026-05-02T08:21:32Z"
 * section[0].entry[0] = Reference(d40a7c2d-1433-47b0-ae51-6919af392232)
-* date = "2026-03-24T12:13:14+01:00"
+* date = "2026-05-02T10:30:18+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
@@ -56,8 +56,8 @@ Description: "Observation EKG-C1-T1"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
-* effectivePeriod.start = "2026-05-01T10:20:14+02:00"
-* effectivePeriod.end = "2026-05-01T08:21:32Z"
+* effectivePeriod.start = "2026-05-02T09:20:14+02:00"
+* effectivePeriod.end = "2026-05-02T08:21:32Z"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * note.text = "Et 'eksempel' der \"ikke\" giver mening i > 5 sekunder og < 10 timer & færdig."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment

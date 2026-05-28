@@ -3,7 +3,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-05-02T15:04:00+02:00
+* timestamp = 2026-05-03T15:04:00+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e03ad305-6d29-4fe7-9bc1-0534de75ee4c" //e03a = e: eksempel // 03: #03 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/3cfefb22-5c06-4de2-ae61-7fc6d1d3f67a"
@@ -36,10 +36,10 @@ Description: "Composition"
 * author[+] = Reference(613a8bdb-5f05-483c-bc9b-9bf8f4b12915)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-05-02T13:00:59Z"
-* event.period.end = "22026-05-02T15:03:21+02:00"
+* event.period.start = "2026-05-03T13:00:59Z"
+* event.period.end = "2026-05-03T15:03:21+02:00"
 * section[0].entry[0] = Reference(a209b499-f95b-48d7-ac98-359afae7e970)
-* date = "2026-03-24T12:13:14+01:00"
+* date = "2026-05-03T15:04:00+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
@@ -55,8 +55,8 @@ Description: "Observation EKG-C1-T1"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(f98285ec-c3bc-4283-a840-0e276cd4bb1c)
-* effectivePeriod.start = "2026-05-02T13:00:59Z"
-* effectivePeriod.end = "2026-05-02T15:03:21+02:00"
+* effectivePeriod.start = "2026-05-03T13:00:59Z"
+* effectivePeriod.end = "2026-05-03T15:03:21+02:00"
 * performer = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * note.text = "Þór og Guðrún sögðu að Ðór þakkaði þjóðinni. Ich kann auf Deutsch schreiben, und ich benutze auch das \"ß\" (lowerCase) and \"ẞ\" (upperCase)."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment

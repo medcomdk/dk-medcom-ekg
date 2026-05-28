@@ -4,7 +4,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-03-24T11:06:43+01:00
+* timestamp = 2026-05-16T16:06:43+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e16ac845-fafe-4faf-92fc-efb6e0fa565a" //e16a = e: eksempel // 16: #16 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/d5e09f8b-0859-4db3-a3d2-6ba31488e99d"
@@ -32,9 +32,9 @@ Description: "Composition"
 * author[institution] = Reference(7802dceb-5199-4b12-adac-240225948867)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-03-24T11:00:00+01:00"
+* event.period.start = "2026-05-16T16:00:00+02:00"
 * section[0].entry[0] = Reference(915a9ab7-75d1-468a-b4bb-90a926bee9e2)
-* date = "2026-03-24T11:05:00+01:00"
+* date = "2026-05-16T16:06:43+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
@@ -50,7 +50,7 @@ Description: "Observation"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
 * subject = Reference(3a570d0e-9210-48e1-8f52-9ea24fb492ed)
-* effectiveDateTime = "2026-03-24T11:00:00+01:00"
+* effectiveDateTime = "2026-05-16T16:00:00+02:00"
 * performer = Reference(7802dceb-5199-4b12-adac-240225948867)
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf

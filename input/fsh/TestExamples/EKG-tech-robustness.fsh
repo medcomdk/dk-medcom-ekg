@@ -3,7 +3,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-03-24T12:16:18+01:00
+* timestamp = 2026-05-21T21:21:21+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e21a8414-8220-4dd4-a989-9a21cd7b3268" //e21a = e: eksempel // 21: #21 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/fXO1RCx7inuWRy90QcRloPDBHs7x-.hjDSAQ3UoBv244"
@@ -32,10 +32,10 @@ Description: "Composition"
 * author[institution] = Reference(44638fdf-4fd2-4e38-83cb-00b92403ffaf)
 * author[+] = Reference(ab05bfa2-2031-41ab-bc35-d278f1ea8786)
 * confidentiality = #N
-* event.period.start = "2026-03-24T12:13:14+01:00"
-* event.period.end = "2026-03-24T11:15:16Z"
+* event.period.start = "2026-05-21T13:13:13+02:00"
+* event.period.end = "2026-05-21T13:14:15+02:00"
 * section[0].entry[0] = Reference(eo-pSrpm7jxOhfJGgzFiKTQ3)
-* date = "2026-03-24T12:13:14+01:00"
+* date = "2026-05-21T13:14:15+02:00"
 * language = #da "Danish"
 * title = "Elektrokardiogram-12-aflednings"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
@@ -55,8 +55,8 @@ Description: "Observation EKG-C1-T1"
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
 * code.coding[LOINC].display = "EKG study"
-* effectivePeriod.start = "2026-03-24T12:13:14+01:00"
-* effectivePeriod.end = "2026-03-24T11:15:16Z"
+* effectivePeriod.start = "2026-05-21T13:13:13+02:00"
+* effectivePeriod.end = "2026-05-21T13:14:15+02:00"
 * note.text = "Hjertet sidder i højre side.\nElektroder placeret spejlvendt."
 * extension[valueAttachment].url = $MedComObsExtValueAttachment
 * extension[valueAttachment].valueAttachment.contentType = #application/pdf

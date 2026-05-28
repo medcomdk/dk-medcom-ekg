@@ -4,7 +4,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-03-24T12:16:18+01:00
+* timestamp = 2026-05-15T15:15:18+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e15a75a5-b3ce-4e13-b091-5bbd07924bd9" //e15a = e: eksempel // 15: #15 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/5d05785f-9f76-49d3-8766-827e42af0139"
@@ -39,10 +39,10 @@ Description: "Composition"
 * author[+] = Reference(613a8bdb-5f05-483c-bc9b-9bf8f4b12915)
 * title = "Elektrokardiogram-12-aflednings"
 * confidentiality = #N
-* event.period.start = "2026-03-24T12:13:14+01:00"
-* event.period.end = "2026-03-24T11:15:16Z"
+* event.period.start = "2026-05-15T15:13:14+02:00"
+* event.period.end = "2026-05-15T15:15:16+02:00"
 * section[0].entry[0] = Reference(f986fe87-df06-4844-9404-0d56b1432dec)
-* date = "2026-03-24T12:13:14+01:00"
+* date = "2026-05-15T15:15:18+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
