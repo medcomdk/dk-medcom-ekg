@@ -3,7 +3,7 @@ InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
 * type = #document
-* timestamp = 2026-05-19T19:19:+02:00
+* timestamp = 2026-05-19T19:19:19+02:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e19a2862-dcfe-4160-8316-a09acf484101" //e19a = e: eksempel // 19: #19 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/d8fb1989-2100-43ce-b66d-50b0e3b134a3"
