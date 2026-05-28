@@ -9,8 +9,8 @@ Description: "Bundle"
 * identifier.value = "urn:uuid:e22af87a-4849-4aa0-843b-71734091c042" //e22a = e: eksempel // 22: #22 // a: version
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Composition/6779b990-ad3d-48c2-bf5d-0e5beffe8dc4"
 * entry[=].resource = 6779b990-ad3d-48c2-bf5d-0e5beffe8dc4
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/d40a7c2d-1433-47b0-ae51-6919af392232"
-* entry[=].resource = d40a7c2d-1433-47b0-ae51-6919af392232
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Observation/6b19651e-81a0-47e5-8bec-c1e5cac081ce"
+* entry[=].resource = 6b19651e-81a0-47e5-8bec-c1e5cac081ce
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/Patient/f98285ec-c3bc-4283-a840-0e276cd4bb1c"
 * entry[=].resource = f98285ec-c3bc-4283-a840-0e276cd4bb1c
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/ekgrecording/PractitionerRole/613a8bdb-5f05-483c-bc9b-9bf8f4b12915"
@@ -39,18 +39,18 @@ Description: "Composition"
 * confidentiality = #N
 * event.period.start = "2026-05-22T09:20:14+02:00"
 * event.period.end = "2026-05-22T08:21:32Z"
-* section[0].entry[0] = Reference(d40a7c2d-1433-47b0-ae51-6919af392232)
+* section[0].entry[0] = Reference(6b19651e-81a0-47e5-8bec-c1e5cac081ce)
 * date = "2026-05-22T10:30:18+02:00"
 * language = #da "Danish"
 * meta.profile = "http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0"
 
 
-Instance: d40a7c2d-1433-47b0-ae51-6919af392232
+Instance: 6b19651e-81a0-47e5-8bec-c1e5cac081ce
 InstanceOf: MedComEkgRecordingObservation
 Title: "Observation"
 Description: "Observation EKG-C1-T1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:348f949f-e669-4549-82ed-496659c936d2"
+* identifier.value = "urn:uuid:501038c8-c7f5-46fb-becb-48f29bc94c9e"
 * status = $ObsStatusCodeSystem#final
 * code.coding[LOINC].system = "http://loinc.org"
 * code.coding[LOINC].code = #11524-6
