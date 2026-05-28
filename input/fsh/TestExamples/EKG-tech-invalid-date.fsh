@@ -1,4 +1,4 @@
-//This example must have the date rearranged in the Bundle.timestamp to make an invalid date.
+//This example must have the date rearranged in the Bundle.timestamp date to make an invalid date.
 Instance: e12a6581-0311-40d6-bd75-b8c2054a3453 //e12a = e: eksempel // 12: #12 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"

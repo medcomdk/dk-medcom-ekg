@@ -1,3 +1,4 @@
+//The attachment is a PNG file.
 Instance: e13a8a77-70c0-48ff-8fa3-b42d600420e9 //e13a = e: eksempel // 13: #13 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
