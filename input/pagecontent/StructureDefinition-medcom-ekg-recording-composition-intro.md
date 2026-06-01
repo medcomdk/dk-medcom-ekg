@@ -38,7 +38,7 @@ The `[major].[minor]` version components are versioned in lockstep.   Any change
   `http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0`
 
 
-#### Timestamps
+### Timestamps
 
 `Composition.event.period.start` and `Composition.event.period.end` is used to represent the time interval of the EKG recording.
 
@@ -48,5 +48,5 @@ If `Observation.effectivePeriod.start` is **NOT** known, `Observation.effectiveD
 
 If `Observation.effectivePeriod.end` is known, this **MUST** be inserted as `Composition.event.period.end`. If this is **NOT** known, this can be left empty, as it is optional.
 
-#### Unused XDS Metadata elements
+### Unused XDS Metadata elements
 `attester`, `event.code`, and `event.detail` is optional XDS metadata elements, but is not used in this standard.

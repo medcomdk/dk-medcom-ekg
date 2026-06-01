@@ -1,6 +1,6 @@
 ## Release Notes
 
-This release is published as a **patch release**. It addresses issues that were identified shortly after publication, and as a result, **no implementations of versions 1.0.0, 1.0.1 or 1.0.2 are expected to exist**.  
+This release is published as a **major release**. It addresses issues that were identified shortly after publication, and as a result, **no implementations of versions 1.0.0, 1.0.1 or 1.0.2 are expected to exist**.  
 Therefore, **versions 1.0.0, 1.0.1 and 1.0.2 MUST NOT be used**.
 
 ### Changes
@@ -13,3 +13,5 @@ Therefore, **versions 1.0.0, 1.0.1 and 1.0.2 MUST NOT be used**.
 - Clarified requirements for **special characters** in the observation note.
 - Clarified that `attester`, `event.code`, and `event.detail` are optional XDS metadata elements, but is not used in this standard.
 - Updated dependency to **medcom.fhir.dk.document#2.0.2** to include dependency to the updated FormatCode.
+- Corrected an issue on the Composition page in the **Description and constraints** for the event start timestamp.
+- Minor graphical adjustments to the heading hierarchy on the Composition introduction page.
