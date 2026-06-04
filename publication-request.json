@@ -1,6 +1,6 @@
 {
     "package-id": "medcom.fhir.dk.ekg",
-    "version": "2.0.0-trial-use-2026-04-28",
+    "version": "2.0.0",
     "path": "http://medcomfhir.dk/ig/ekg/2.0.0",
     "status": "release",
     "sequence": "Release 2.x.x",
