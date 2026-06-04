@@ -38,7 +38,7 @@ The `[major].[minor]` version components are versioned in lockstep.   Any change
   `http://medcomfhir.dk/ig/ekg/StructureDefinition/medcom-ekg-recording-composition|2.0`
 
 
-#### Timestamps
+### Timestamps
 
 `Composition.event.period.start` and `Composition.event.period.end` is used to represent the time interval of the EKG recording.
 
