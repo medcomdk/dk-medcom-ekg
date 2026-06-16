@@ -40,20 +40,23 @@ On the front page of this Implementation Guide, there is a description of the ot
 
 XDS metadata attributes for sharing MedCom’s standard: EKG Recording (In Danish): [XDS-metadata - Deling af EKG.pdf](assets/documents/XDS-metadata - Deling af EKG.pdf)
 
-
 ## 2 Test and Certification
 Certification of a system implies both an approved test protocol and a run-through of test scripts via ITB (Interoperability Test Bed). The ITB describes an infrastructure that allows for automated testing of specific use cases and validation against the IGs developed by MedCom.
 
 [Click here to find a description of getting started with ITB](https://medcomdk.github.io/MedComLandingPage/assets/documents/ITBGettingStarted.html).
 
 **Providing an EKG Recording document**
-  * Test protocol *(Will be published when available)*
-  * ITB test suite *(Will be published when available)*
+  * ITB test suite (EKG Document Source Suite)
 <p>&nbsp;</p>
  
 **Receiving an EKG Recording document**
-  * Test protocol *(Will be published when available)*
+  * ITB test suite (EKG Document Consumer Suite)
 <p>&nbsp;</p>
+
+### 2.1 Detailed test information document
+A detailed description of the test setup can be found here:
+
+  * [Detailed test setup](assets/documents/Guide-til-test-af-deling-af-EKG.pdf)(in Danish)
 
 ## 3 Vendor chat-forum
 Vendors using the Shared EKG Recording standard can use this [EKG Zulip FHIR chat forum](https://chat.fhir.org/#narrow/channel/593837-denmark.2Fmedcom.2Fprofile.2FEKG/topic/channel.20events/with/591084298) to ask questions and help each other. 
