@@ -56,7 +56,7 @@ Certification of a system implies both an approved test protocol and a run-throu
 ### 2.1 Detailed test information document
 A detailed description of the test setup can be found here:
 
-  * [Detailed test setup](assets/documents/Guide-til-test-af-deling-af-EKG.pdf)(in Danish)
+  * [Detailed test setup](assets/documents/Guide-til-test-af-deling-af-EKG.pdf) (in Danish)
 
 ## 3 Vendor chat-forum
 Vendors using the Shared EKG Recording standard can use this [EKG Zulip FHIR chat forum](https://chat.fhir.org/#narrow/channel/593837-denmark.2Fmedcom.2Fprofile.2FEKG/topic/channel.20events/with/591084298) to ask questions and help each other. 
