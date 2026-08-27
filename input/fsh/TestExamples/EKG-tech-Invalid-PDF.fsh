@@ -1,4 +1,4 @@
-Instance: e17afc96-9125-4cc7-a112-b439715b00dc //e17a = e: eksempel // 17: #17 // a: version
+Instance: e17bfc96-9125-4cc7-a112-b439715b00dc //e17a = e: eksempel // 17: #17 // a: version
 InstanceOf: MedComEkgRecordingBundle
 Title: "Bundle instance"
 Description: "Bundle"
