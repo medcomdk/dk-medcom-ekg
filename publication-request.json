@@ -4,7 +4,7 @@
     "path": "http://medcomfhir.dk/ig/ekg/2.0.1",
     "status": "release",
     "sequence": "Release 2.x.x",
-    "mode" : "milestone",
+    "mode": "milestone",
     "descmd": "@release-notes.md",
     "desc": "Release 2.0.1 - see release notes"
 }
